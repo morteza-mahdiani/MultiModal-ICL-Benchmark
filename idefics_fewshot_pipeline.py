@@ -143,12 +143,21 @@ def build_few_shot_prompt_and_images(few_shot_examples, eval_sample):
     
     eval_question_text = eval_sample['text_question_0'].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
     
-    prompt += "Now, please answer the following for the evaluation sample:\n"
-    prompt += f"Question: {eval_question_text}\n"
-    prompt += "Answer: "
-    images.append(eval_sample['image_0'])
+    eval_prompt = "Now, please answer the following for the evaluation sample:\n"
+    eval_prompt += f"Question: {eval_question_text}\n"
+    eval_prompt += "Answer: "
     
-    return prompt, images
+    prompt_1 = prompt + eval_prompt
+    images_1 = images.copy()  
+    images_1.append(eval_sample['image_0'])
+
+    prompt_2 = prompt + eval_prompt
+    images_2 = images.copy() 
+    images_2.append(eval_sample['image_1'])
+    
+    
+    return prompt_1, images_1, prompt_2, images_2
+
 
 
 
@@ -166,25 +175,32 @@ all_results = []
 
 for batch_idx in range(num_batches):
     batch_samples = data_samples[batch_idx * batch_size : (batch_idx + 1) * batch_size]
-    batch_prompts = []
-    batch_image_lists = []
+    batch_prompts_1 = []
+    batch_image_lists_1 = []
+    batch_prompts_2 = []
+    batch_image_lists_2 = []
     batch_metadata = []
-  
+ 
     for sample in batch_samples:
         few_shot = get_few_shot_examples(sample, data_samples, num_examples=8)
-        text_prompt, image_list = build_few_shot_prompt_and_images(few_shot, sample)
-        batch_prompts.append(text_prompt)
-        batch_image_lists.append(image_list)
+        prompt1, images1, prompt2, images2 = build_few_shot_prompt_and_images(few_shot, sample)
+        batch_prompts_1.append(prompt1)
+        batch_image_lists_1.append(images1)
+        batch_prompts_2.append(prompt2)
+        batch_image_lists_2.append(images2)
         batch_metadata.append({
             'sample_id': sample.get('id', None),
             'category': get_category(sample),
-            'text_prompt': text_prompt
+            'text_prompt': prompt1  
         })
-    batch_answers = idefics2.predict_batch(texts=batch_prompts, images=batch_image_lists, max_new_tokens=64)
-    print(batch_answers)
-    # Combine metadata with answers.
-    for meta, answer in zip(batch_metadata, batch_answers):
-        meta['text_answer'] = answer
+    
+    batch_answers_1 = idefics2.predict_batch(texts=batch_prompts_1, images=batch_image_lists_1, max_new_tokens=64)
+    batch_answers_2 = idefics2.predict_batch(texts=batch_prompts_2, images=batch_image_lists_2, max_new_tokens=64)
+    print(batch_answers_1)
+    print(batch_answers_2)
+    for meta, ans1, ans2 in zip(batch_metadata, batch_answers_1, batch_answers_2):
+        meta['text_answer_1'] = ans1
+        meta['text_answer_2'] = ans2
         all_results.append(meta)
     
     print(f"Processed batch {batch_idx + 1}/{num_batches}")
