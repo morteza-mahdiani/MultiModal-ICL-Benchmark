@@ -6,6 +6,7 @@ import random
 import pandas as pd
 from datasets import load_dataset
 import math
+from tqdm import tqdm
 
 class Idefics2Model:
     def __init__(self, model_name_or_path="HuggingFaceM4/idefics2-8b", device: str = "cuda", **kwargs):
@@ -173,7 +174,7 @@ num_batches = math.ceil(num_samples / batch_size)
 
 all_results = []
 
-for batch_idx in range(num_batches):
+for batch_idx in tqdm(range(num_batches), desc="Processing Batches", unit="batch"):
     batch_samples = data_samples[batch_idx * batch_size : (batch_idx + 1) * batch_size]
     batch_prompts_1 = []
     batch_image_lists_1 = []
