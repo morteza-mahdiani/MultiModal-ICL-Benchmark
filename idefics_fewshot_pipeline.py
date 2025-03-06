@@ -21,7 +21,7 @@ class Idefics2Model:
         else:
             quantization_config = None
         
-        self.processor = AutoProcessor.from_pretrained("HuggingFaceM4/idefics2-8b", cache_dir="../scratch/", do_image_splitting=False)
+        self.processor = AutoProcessor.from_pretrained("HuggingFaceM4/idefics2-8b", cache_dir="../../scratch/", do_image_splitting=False)
         self.model = AutoModelForVision2Seq.from_pretrained(
             model_name_or_path,
             low_cpu_mem_usage=True,
@@ -29,7 +29,7 @@ class Idefics2Model:
             torch_dtype=torch.float16,
             _attn_implementation=attn_implementation,
             quantization_config=quantization_config,
-            cache_dir="../scratch/"
+            cache_dir="../../scratch/"
         )
         self.device = device
         
@@ -159,7 +159,54 @@ def build_few_shot_prompt_and_images(few_shot_examples, eval_sample):
     
     return prompt_1, images_1, prompt_2, images_2
 
+def build_few_shot_prompt_and_images_for_image_question(few_shot_examples, eval_sample):
+    """
+    Build a prompt that includes few-shot examples and returns:
+      - the combined text prompt (with examples and evaluation sample details)
+      - a list of images in order: [few-shot example images..., evaluation sample image]
+    The function normalizes the question text so that any image placeholder is replaced with "<image>".
+    """
+    prompt = "Below are some examples demonstrating how to answer based on the provided captions and images:\n\n"
+    images = []
 
+    for idx, ex in enumerate(few_shot_examples, start=1):
+        if random.random() < 0.5:
+            q_field = "image_question_0"
+            a_field = "image_answer_0"
+            default_answer = "First"
+        else:
+            q_field = "image_question_1"
+            a_field = "image_answer_1"
+            default_answer = "Second"
+
+        question_text = ex[q_field].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
+        
+        example_text = (
+            f"Example {idx}:\n"
+            f"Question: {question_text}\n"
+            f"Answer: {ex.get(a_field, default_answer)}\n\n"
+        )
+        prompt += example_text
+        images.append(ex["image_0"])
+        images.append(ex["image_1"])
+    
+    eval_question_text_1 = eval_sample['image_question_0'].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
+    eval_question_text_2 = eval_sample['image_question_1'].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
+
+    eval_prompt = "Now, please answer the following for the evaluation sample:\n"
+    
+    prompt_1 = prompt + eval_prompt
+    prompt_1 +=  f"Question: {eval_question_text_1}\n"
+    prompt_1 += "Answer: "
+
+    prompt_2 = prompt + eval_prompt
+    prompt_2 +=  f"Question: {eval_question_text_2}\n"
+    prompt_2 += "Answer: "
+
+    images.append(eval_sample['image_0'])
+    images.append(eval_sample['image_1'])
+
+    return prompt_1, images, prompt_2, images
 
 
 
@@ -168,7 +215,7 @@ dataset = load_dataset('mair-lab/vismin-bench')
 data_samples = list(dataset['test'])
 
 
-batch_size = 8
+batch_size = 6
 num_samples = len(data_samples)
 num_batches = math.ceil(num_samples / batch_size)
 
@@ -184,7 +231,7 @@ for batch_idx in tqdm(range(num_batches), desc="Processing Batches", unit="batch
  
     for sample in batch_samples:
         few_shot = get_few_shot_examples(sample, data_samples, num_examples=8)
-        prompt1, images1, prompt2, images2 = build_few_shot_prompt_and_images(few_shot, sample)
+        prompt1, images1, prompt2, images2 = build_few_shot_prompt_and_images_for_image_question(few_shot, sample)
         batch_prompts_1.append(prompt1)
         batch_image_lists_1.append(images1)
         batch_prompts_2.append(prompt2)
@@ -197,8 +244,8 @@ for batch_idx in tqdm(range(num_batches), desc="Processing Batches", unit="batch
     
     batch_answers_1 = idefics2.predict_batch(texts=batch_prompts_1, images=batch_image_lists_1, max_new_tokens=64)
     batch_answers_2 = idefics2.predict_batch(texts=batch_prompts_2, images=batch_image_lists_2, max_new_tokens=64)
-    print(batch_answers_1)
-    print(batch_answers_2)
+#    print(batch_answers_1)
+#    print(batch_answers_2)
     for meta, ans1, ans2 in zip(batch_metadata, batch_answers_1, batch_answers_2):
         meta['text_answer_1'] = ans1
         meta['text_answer_2'] = ans2
@@ -206,5 +253,5 @@ for batch_idx in tqdm(range(num_batches), desc="Processing Batches", unit="batch
     
     print(f"Processed batch {batch_idx + 1}/{num_batches}")
 results_df = pd.DataFrame(all_results)
-results_df.to_csv('idefics2_vismin_evaluation_results.csv', index=False)
+results_df.to_csv('idefics2_vismin_evaluation_results_image_questions.csv', index=False)
 print("Evaluation complete. Results saved to idefics2_vismin_evaluation_results.csv")
