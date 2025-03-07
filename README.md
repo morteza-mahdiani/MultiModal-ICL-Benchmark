@@ -33,7 +33,7 @@ This document provides a comparison between **ICL (In-Context Learning) results*
 ---
 
 ## **Detailed Comparison Table**
-| Category     | Text Score (T) - ICL | Text Score (T) - Few-Shot | Image Score (I) - ICL | Image Score (I) - Few-Shot | Group Score (G) - ICL | Group Score (G) - Few-Shot |
+| Category     | Text Score (T) - ICL | Text Score (T) - Zero-Shot | Image Score (I) - ICL | Image Score (I) - Zero-Shot | Group Score (G) - ICL | Group Score (G) - Zero-Shot |
 |-------------|----------------------|----------------------------|----------------------|----------------------------|----------------------|----------------------------|
 | **Object**      | 94.65                | 95.4                        | 17.44               | 69.4                        | 17.10               | 67.6                        |
 | **Attribute**   | 89.12                | 89.1                        | 14.29               | 71.4                        | 12.59               | 67.0                        |
