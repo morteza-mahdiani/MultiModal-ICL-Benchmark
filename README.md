@@ -1,6 +1,6 @@
 # Checklist
 
-- [*] Accuracy of Idefics2  
+- [x] Accuracy of Idefics2  
 - [ ] Llava Implementation  
 - [ ] Other Datasets  
 - [ ] Other Models  
@@ -8,7 +8,7 @@
 
 
 
-# README: Comparison of ICL and Fine-Tuned Idefics2 on VisMin Benchmark
+# Comparison of ICL and Fine-Tuned Idefics2 on VisMin Benchmark
 
 ## Overview
 This document provides a comparison between **ICL (In-Context Learning) results** and the **fine-tuned version of Idefics2** on the VisMin benchmark. The analysis is based on **Text (T), Image (I), and Group (G) scores** for four key categories: **Object, Attribute, Spatial Relation, and Count**.
