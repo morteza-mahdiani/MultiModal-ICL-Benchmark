@@ -172,7 +172,7 @@ def build_few_shot_prompt_and_images_for_image_question(few_shot_examples, eval_
     images = []
     num_examples = len(few_shot_examples)
     for idx, ex in enumerate(few_shot_examples, start=1):
-        if idx < (num_examples//2 - 1):
+        if idx < (num_examples//2 + 1):
             q_field = "image_question_0"
             a_field = "image_answer_0"
             default_answer = "First."
@@ -259,7 +259,8 @@ def run_evaluation(batch_size=16, num_fewshot_examples=8, image_question=True, f
             batch_metadata.append({
                 'sample_id': sample.get('id', None),
                 'category': get_category(sample),
-                'text_prompt': prompt1  
+                'text_prompt1': prompt1,
+                'text_prompt2': prompt2
             })
         
         batch_answers_1 = idefics2.predict_batch(texts=batch_prompts_1, images=batch_image_lists_1, max_new_tokens=64)
