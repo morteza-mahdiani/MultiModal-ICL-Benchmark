@@ -69,7 +69,7 @@ class Idefics2Model:
         prompt = self.prepare_prompt(text, images)
         print(prompt)
         inputs = self.processor(text=prompt, images=images, return_tensors="pt").to(self.device, dtype=torch.float16)
-        generated_ids = self.model.generate(**inputs, max_new_tokens=max_new_tokens, temperature=0.2)
+        generated_ids = self.model.generate(**inputs, max_new_tokens=max_new_tokens, temperature=0.0, do_sample=False)
         if self.processor.tokenizer.padding_side == "left":
             generated_ids = generated_ids[:, inputs.input_ids.shape[1]:]
         print(generated_ids[0])
@@ -172,7 +172,7 @@ def build_few_shot_prompt_and_images_for_image_question(few_shot_examples, eval_
     images = []
     num_examples = len(few_shot_examples)
     for idx, ex in enumerate(few_shot_examples, start=1):
-        if idx < num_examples//2:
+        if idx < (num_examples//2 - 1):
             q_field = "image_question_0"
             a_field = "image_answer_0"
             default_answer = "First."
@@ -280,7 +280,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Idefics2 pipeline")
     parser.add_argument("--batch_size", type=int, default=16, help="Batch size for evaluation")
     parser.add_argument("--num_fewshot_examples", type=int, default=8, help="Number of few-shot examples")
-    parser.add_argument("--image_question", type=bool, default=True, help="Image-based questions or text-based")
+    parser.add_argument("--image_question", type=lambda x: x.lower() == 'true', default=True, help="Set True for image-based questions, False for text-based")
     parser.add_argument("--filename", type=str, default="idefics2_vismin_evaluation_results.csv", help="Output filename")
     
     args = parser.parse_args()
