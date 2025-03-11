@@ -181,3 +181,7 @@ cython_debug/
 hf_cache
 ./hf_cache
 /hf_cache
+mllm
+./mllm
+./huggingface_cache
+huggingface_cache
