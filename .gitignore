@@ -177,3 +177,7 @@ cython_debug/
 .idea/
 *.iml
 *.ipynb
+
+hf_cache
+./hf_cache
+/hf_cache
