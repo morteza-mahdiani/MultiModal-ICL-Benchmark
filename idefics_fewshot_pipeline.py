@@ -11,6 +11,7 @@ import argparse
 
 class Idefics2Model:
     def __init__(self, model_name_or_path="HuggingFaceM4/idefics2-8b", device: str = "cuda", **kwargs):
+        self.device = device
         if model_name_or_path == "HuggingFaceM4/idefics2-8b":
             attn_implementation = None
             load_in_Nbit = kwargs.pop("load_in_Nbit", None)
@@ -33,7 +34,6 @@ class Idefics2Model:
                 quantization_config=quantization_config,
                 cache_dir="../../scratch/"
             )
-            self.device = device
         else:
             attn_implementation = "flash_attention_2"
             quantization_config = BitsAndBytesConfig(
@@ -53,6 +53,7 @@ class Idefics2Model:
                 if model_name_or_path in ["HuggingFaceM4/idefics2-8b", "HuggingFaceM4/idefics2-8b-base"]
                 else None,
             )
+            
         
         
     def prepare_prompt(self, text, images):
