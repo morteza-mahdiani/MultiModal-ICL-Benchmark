@@ -11,28 +11,48 @@ import argparse
 
 class Idefics2Model:
     def __init__(self, model_name_or_path="HuggingFaceM4/idefics2-8b", device: str = "cuda", **kwargs):
-        attn_implementation = None
-        load_in_Nbit = kwargs.pop("load_in_Nbit", None)
-        if model_name_or_path == "HuggingFaceM4/idefics2-8b" and load_in_Nbit == 4:
+        if model_name_or_path == "HuggingFaceM4/idefics2-8b":
+            attn_implementation = None
+            load_in_Nbit = kwargs.pop("load_in_Nbit", None)
+            if model_name_or_path == "HuggingFaceM4/idefics2-8b" and load_in_Nbit == 4:
+                quantization_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_quant_type="nf4",
+                    bnb_4bit_compute_dtype=torch.float16,
+                )
+            else:
+                quantization_config = None
+            
+            self.processor = AutoProcessor.from_pretrained("HuggingFaceM4/idefics2-8b", cache_dir="../../scratch/", do_image_splitting=False)
+            self.model = AutoModelForVision2Seq.from_pretrained(
+                model_name_or_path,
+                low_cpu_mem_usage=True,
+                device_map="auto",
+                torch_dtype=torch.float16,
+                _attn_implementation=attn_implementation,
+                quantization_config=quantization_config,
+                cache_dir="../../scratch/"
+            )
+            self.device = device
+        else:
+            attn_implementation = "flash_attention_2"
             quantization_config = BitsAndBytesConfig(
                 load_in_4bit=True,
                 bnb_4bit_quant_type="nf4",
                 bnb_4bit_compute_dtype=torch.float16,
             )
-        else:
-            quantization_config = None
-        
-        self.processor = AutoProcessor.from_pretrained("HuggingFaceM4/idefics2-8b", cache_dir="../../scratch/", do_image_splitting=False)
-        self.model = AutoModelForVision2Seq.from_pretrained(
-            model_name_or_path,
-            low_cpu_mem_usage=True,
-            device_map="auto",
-            torch_dtype=torch.float16,
-            _attn_implementation=attn_implementation,
-            quantization_config=quantization_config,
-            cache_dir="../../scratch/"
-        )
-        self.device = device
+            self.processor = AutoProcessor.from_pretrained("HuggingFaceM4/idefics2-8b", cache_dir="../../scratch/", do_image_splitting=False)
+            self.model = AutoModelForVision2Seq.from_pretrained(
+                model_name_or_path,
+                low_cpu_mem_usage=True,
+                cache_dir="../../scratch/",
+                device_map="auto",
+                torch_dtype=torch.float16,
+                _attn_implementation=attn_implementation, 
+                quantization_config=quantization_config
+                if model_name_or_path in ["HuggingFaceM4/idefics2-8b", "HuggingFaceM4/idefics2-8b-base"]
+                else None,
+            )
         
         
     def prepare_prompt(self, text, images):
@@ -69,7 +89,7 @@ class Idefics2Model:
         prompt = self.prepare_prompt(text, images)
         print(prompt)
         inputs = self.processor(text=prompt, images=images, return_tensors="pt").to(self.device, dtype=torch.float16)
-        generated_ids = self.model.generate(**inputs, max_new_tokens=max_new_tokens, temperature=0.0, do_sample=False)
+        generated_ids = self.model.generate(**inputs, max_new_tokens=max_new_tokens, temperature=0.2)
         if self.processor.tokenizer.padding_side == "left":
             generated_ids = generated_ids[:, inputs.input_ids.shape[1]:]
         print(generated_ids[0])
@@ -226,8 +246,12 @@ def build_prompt_without_few_shot(eval_sample):
 
     return prompt_1, images, prompt_2, images
 
-def run_evaluation(batch_size=16, num_fewshot_examples=8, image_question=True, filename="idefics2_vismin_evaluation_results.csv"):
-    idefics2 = Idefics2Model(device="cuda")
+def run_evaluation(finetuned=False, batch_size=16, num_fewshot_examples=8, image_question=True, filename="idefics2_vismin_evaluation_results.csv"):
+    if finetuned:
+        print("loading finetuned model")
+        idefics2 = Idefics2Model(model_name_or_path="mair-lab/vismin-idefics2-8b", device="cuda")
+    else:
+        idefics2 = Idefics2Model(device="cuda")
     if image_question:
         build_few_shot = build_few_shot_prompt_and_images_for_image_question
     else:
@@ -279,6 +303,8 @@ def run_evaluation(batch_size=16, num_fewshot_examples=8, image_question=True, f
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Idefics2 pipeline")
+    
+    parser.add_argument("--finetuned", type=lambda x: x.lower() == 'true', default=True, help="Load finetuned model on Vismin")
     parser.add_argument("--batch_size", type=int, default=16, help="Batch size for evaluation")
     parser.add_argument("--num_fewshot_examples", type=int, default=8, help="Number of few-shot examples")
     parser.add_argument("--image_question", type=lambda x: x.lower() == 'true', default=True, help="Set True for image-based questions, False for text-based")
@@ -287,6 +313,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     run_evaluation(
+        finetuned=args.finetuned,
         batch_size=args.batch_size,
         num_fewshot_examples=args.num_fewshot_examples,
         image_question=args.image_question,
