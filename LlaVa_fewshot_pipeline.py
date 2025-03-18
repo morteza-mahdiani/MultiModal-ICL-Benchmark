@@ -8,11 +8,16 @@ from datasets import load_dataset
 import math
 from tqdm import tqdm
 import argparse
+import os
 
 class LlavaModel:
-    def __init__(self, model_name_or_path="llava-hf/llava-v1.6-mistral-7b-hf", device: str = "cuda", **kwargs):
+    def __init__(self, model_name_or_path="llava-hf/llava-v1.6-mistral-7b-hf", device: str = "cuda", load_in_Nbit=4, **kwargs):
         # If you want to load the model in 4-bit quantization, set load_in_Nbit=4
         load_in_Nbit = kwargs.pop("load_in_Nbit", None)
+        if load_in_Nbit == 'load_in_Nbit':
+            # load_in_Nbit = 4
+            print("Loading in 4-bit quantization")
+            print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
         if model_name_or_path == "llava-hf/llava-v1.6-mistral-7b-hf" and load_in_Nbit == 4:
             quantization_config = BitsAndBytesConfig(
                 load_in_4bit=True,
@@ -199,67 +204,139 @@ def build_prompt_without_few_shot(eval_sample):
     return prompt_1, images, prompt_2, images
 
 
-def run_evaluation(batch_size=16, num_fewshot_examples=8, image_question=True,
+# def run_evaluation(batch_size=16, num_fewshot_examples=8, image_question=True,
+#                    filename="llava_vismin_evaluation_results.csv"):
+#     llava = LlavaModel(device="cuda")
+#     if image_question:
+#         build_few_shot = build_few_shot_prompt_and_images_for_image_question
+#     else:
+#         build_few_shot = build_few_shot_prompt_and_images
+
+#     dataset = load_dataset('mair-lab/vismin-bench')
+#     data_samples = list(dataset['test'])
+#     num_samples = len(data_samples)
+#     num_batches = math.ceil(num_samples / batch_size)
+#     all_results = []
+    
+#     for batch_idx in tqdm(range(num_batches), desc="Processing Batches", unit="batch"):
+#         batch_samples = data_samples[batch_idx * batch_size: (batch_idx + 1) * batch_size]
+#         batch_prompts_1 = []
+#         batch_image_lists_1 = []
+#         batch_prompts_2 = []
+#         batch_image_lists_2 = []
+#         batch_metadata = []
+    
+#         for sample in batch_samples:
+#             if num_fewshot_examples:
+#                 few_shot = get_few_shot_examples(sample, data_samples, num_examples=num_fewshot_examples)
+#                 prompt1, images1, prompt2, images2 = build_few_shot(few_shot, sample)
+#             else:
+#                 prompt1, images1, prompt2, images2 = build_prompt_without_few_shot(sample)
+#             batch_prompts_1.append(prompt1)
+#             batch_image_lists_1.append(images1)
+#             batch_prompts_2.append(prompt2)
+#             batch_image_lists_2.append(images2)
+#             batch_metadata.append({
+#                 'sample_id': sample.get('id', None),
+#                 'category': get_category(sample),
+#                 'text_prompt1': prompt1,
+#                 'text_prompt2': prompt2
+#             })
+        
+#         batch_answers_1 = llava.predict_batch(texts=batch_prompts_1, images=batch_image_lists_1, max_new_tokens=64)
+#         batch_answers_2 = llava.predict_batch(texts=batch_prompts_2, images=batch_image_lists_2, max_new_tokens=64)
+
+#         for meta, ans1, ans2 in zip(batch_metadata, batch_answers_1, batch_answers_2):
+#             meta['text_answer_1'] = ans1
+#             meta['text_answer_2'] = ans2
+#             all_results.append(meta)
+        
+#         print(f"Processed batch {batch_idx + 1}/{num_batches}")
+    
+#     results_df = pd.DataFrame(all_results)
+#     results_df.to_csv(filename, index=False)
+#     print("Evaluation complete. Results saved to " + filename)
+
+
+def run_evaluation(batch_size=1, num_fewshot_examples=8, image_question=True,
                    filename="llava_vismin_evaluation_results.csv"):
-    llava = LlavaModel(device="cuda")
-    if image_question:
-        build_few_shot = build_few_shot_prompt_and_images_for_image_question
+
+    llava = LlavaModel()
+    dataset = load_dataset("mair-lab/vismin-bench", split="test")
+    all_samples = [s for s in dataset]
+
+    # Load existing results if file exists
+    if os.path.exists(filename) and os.stat(filename).st_size > 0:
+        completed_results_df = pd.read_csv(filename)
+        completed_count = len(completed_results_df) // 2  # assuming each sample generates two rows
+        print(f"Resuming evaluation. {completed_count} samples completed.")
     else:
-        build_few_shot = build_few_shot_prompt_and_images
+        completed_count = 0
+    remaining_samples = all_samples[completed_count:]
 
-    dataset = load_dataset('mair-lab/vismin-bench')
-    data_samples = list(dataset['test'])
-    num_samples = len(data_samples)
-    num_batches = math.ceil(num_samples / batch_size)
-    all_results = []
-    
-    for batch_idx in tqdm(range(num_batches), desc="Processing Batches", unit="batch"):
-        batch_samples = data_samples[batch_idx * batch_size: (batch_idx + 1) * batch_size]
-        batch_prompts_1 = []
-        batch_image_lists_1 = []
-        batch_prompts_2 = []
-        batch_image_lists_2 = []
-        batch_metadata = []
-    
-        for sample in batch_samples:
-            if num_fewshot_examples:
-                few_shot = get_few_shot_examples(sample, data_samples, num_examples=num_fewshot_examples)
-                prompt1, images1, prompt2, images2 = build_few_shot(few_shot, sample)
+    # llava = LlavaModel(device="cuda", load_in_Nbit=4)
+    llava = LlavaModel(device="cuda")
+
+    with open(filename, "a" if os.path.exists(filename) else "w", encoding="utf-8") as f:
+        # If the file is new, write headers first
+        if not os.path.exists(filename):
+            f.write("sample_id,prompt_type,prompt,generated_answer\n")
+
+        for eval_sample in tqdm(remaining_samples, desc="Evaluating samples", unit="sample"):
+            few_shot_examples = get_few_shot_examples(current_sample=eval_sample, all_samples=all_samples, num_examples=num_fewshot_examples)
+            if batch_size == 1:
+                if args.image_question:
+                    prompt_1, images_1, prompt_2, images_2 = build_few_shot_prompt_and_images_for_image_question(few_shot_examples=few_shot_examples, eval_sample=eval_sample)
+                else:
+                    prompt_1, images_1, prompt_2, images_2 = build_few_shot_prompt_and_images(few_shot_examples=few_shot_examples, eval_sample=eval_sample)
+
+                # Get model predictions
+                answer_1 = llava.predict(prompt_1, images_1)
+                answer_2 = llava.predict(prompt_2, images_2)
+
+                # Save immediately
+                result_row_1 = {"sample_id": eval_sample["id"], "prompt": prompt_1, "answer": answer_1}
+                result_row_2 = {"sample_id": eval_sample["id"], "prompt": prompt_2, "answer": answer_2}
+                df_to_append = pd.DataFrame([result_row_1, result_row_2])
+                df_empty = os.stat(filename).st_size == 0
+                df_header = df_empty
+                df_mode = 'a'
+                result_df = pd.DataFrame([result_row_1, {"sample_id": eval_sample["id"], "prompt": prompt_2, "answer": answer_2}])
+                result_df.to_csv(f, header=df_header, index=False)
+                f.flush()
+                
             else:
-                prompt1, images1, prompt2, images2 = build_prompt_without_few_shot(sample)
-            batch_prompts_1.append(prompt1)
-            batch_image_lists_1.append(images1)
-            batch_prompts_2.append(prompt2)
-            batch_image_lists_2.append(images2)
-            batch_metadata.append({
-                'sample_id': sample.get('id', None),
-                'category': get_category(sample),
-                'text_prompt1': prompt1,
-                'text_prompt2': prompt2
-            })
-        
-        batch_answers_1 = llava.predict_batch(texts=batch_prompts_1, images=batch_image_lists_1, max_new_tokens=64)
-        batch_answers_2 = llava.predict_batch(texts=batch_prompts_2, images=batch_image_lists_2, max_new_tokens=64)
+                # For simplicity, handle batch > 1 similarly, just ensure saving per batch
+                batch_samples = remaining_samples[:batch_size]
+                batch_prompts, batch_images, batch_answers = [], [], []
 
-        for meta, ans1, ans2 in zip(batch_metadata, batch_answers_1, batch_answers_2):
-            meta['text_answer_1'] = ans1
-            meta['text_answer_2'] = ans2
-            all_results.append(meta)
-        
-        print(f"Processed batch {batch_idx + 1}/{num_batches}")
-    
-    results_df = pd.DataFrame(all_results)
-    results_df.to_csv(filename, index=False)
-    print("Evaluation complete. Results saved to " + filename)
+                for sample in batch_samples:
+                    prompt_1, images_1, prompt_2, images_2 = build_few_shot_prompt_and_images_for_image_question(few_shot_examples=few_shot_examples, eval_sample=sample)
+                    batch_prompts.extend([prompt_1, prompt_2])
+                    batch_images.extend([images_1, images_2])
+
+                batch_answers = llava.predict_batch(texts=batch_prompts, images=batch_images)
+
+                # Save immediately after batch
+                for sample, prompt, answer in zip(batch_samples, batch_prompts, batch_answers):
+                    row = {"sample_id": sample["id"], "prompt": prompt, "answer": answer}
+                    result_df = pd.DataFrame([row])
+                    result_df.to_csv(f, mode='a', header=f.tell() == 0, index=False)
+                f.flush()
+
+    print(f"Evaluation completed. Results saved to {filename}.")
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="LLaVA 1.6 7b Evaluation Pipeline")
-    parser.add_argument("--batch_size", type=int, default=16, help="Batch size for evaluation")
+    parser.add_argument("--batch_size", type=int, default=1, help="Batch size for evaluation")
     parser.add_argument("--num_fewshot_examples", type=int, default=8, help="Number of few-shot examples")
-    parser.add_argument("--image_question", type=lambda x: x.lower() == 'true', default=True,
+    parser.add_argument("--image_question", type=lambda x: x.lower() == 'true', default=False,
                         help="Set True for image-based questions, False for text-based")
-    parser.add_argument("--filename", type=str, default="llava_vismin_evaluation_results.csv", help="Output filename")
+    parser.add_argument("--filename", type=str, default="llava_vismin_evaluation_results_captions.csv", help="Output filename")
+    parser.add_argument("--model_name", type=str, default="llava-hf/llava-v1.6-mistral-7b-hf", help="Model name")
+    parser.add_argument("--device", type=str, default="cuda", help="Device")
+    parser.add_argument("--load_in_Nbit", type=int, default=4, help="Load in N-bit")
     
     args = parser.parse_args()
     

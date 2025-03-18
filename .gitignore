@@ -185,3 +185,5 @@ mllm
 ./mllm
 ./huggingface_cache
 huggingface_cache
+*.out
+*.sh
