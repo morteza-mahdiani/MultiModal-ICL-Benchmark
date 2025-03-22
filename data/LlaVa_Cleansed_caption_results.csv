@@ -1,0 +1,2085 @@
+sample_id,first_answer,second_answer,category
+0,A,A,Object
+1,A,A,Object
+2,A,B,Object
+3,A,A,Object
+4,A,B,Object
+5,A,B,Object
+6,A,B,Object
+7,A,B,Object
+8,A,A,Object
+9,A,B,Object
+10,A,B,Object
+11,A,B,Object
+12,A,B,Object
+13,A,B,Object
+14,A,B,Object
+15,A,B,Object
+16,A,B,Object
+17,A,A,Object
+18,B,B,Object
+19,A,A,Object
+20,A,B,Object
+21,A,A,Object
+22,"The image you've provided does not match either of the given choices. It appears to be a photograph of a person standing in a room with a dishwasher, and there is no bird or branch visible in the image. ",B,Object
+23,A,B,Object
+24,A,B,Object
+25,A,B,Object
+26,A,B,Object
+27,A,B,Object
+28,A,B,Object
+29,A,A,Object
+30,A,B,Object
+31,A,A,Object
+32,A,B,Object
+33,A,A,Object
+34,A,B,Object
+35,A,B,Object
+36,A,B,Object
+37,A,B,Object
+38,A,B,Object
+39,A,B,Object
+40,A,B,Object
+41,A,B,Object
+42,A,B,Object
+43,A,B,Object
+44,A,A,Object
+45,A,A,Object
+46,A,A,Object
+47,A,B,Object
+48,A,B,Object
+49,A,A,Object
+50,A,B,Object
+51,A,B,Object
+52,A,A,Object
+53,A,B,Object
+54,A,B,Object
+55,A,B,Object
+56,A,A,Object
+57,B,B,Object
+58,A,B,Object
+59,A,A,Object
+60,A,B,Object
+61,A,B,Object
+62,A,A,Object
+63,A,B,Object
+64,A,A,Object
+65,A,B,Object
+66,A,A,Object
+67,A,B,Object
+68,A,B,Object
+69,A,B,Object
+70,A,B,Object
+71,A,B,Object
+72,A,A,Object
+73,A,B,Object
+74,B,B,Object
+75,A,B,Object
+76,A,B,Object
+77,A,B,Object
+78,A,B,Object
+79,A,A,Object
+80,A,B,Object
+81,A,B,Object
+82,A,B,Object
+83,A,A,Object
+84,A,A,Object
+85,A,B,Object
+86,A,B,Object
+87,A,B,Object
+88,A,A,Object
+89,A,A,Object
+90,A,B,Object
+91,A,B,Object
+92,A,B,Object
+93,A,B,Object
+94,A,B,Object
+95,A,A,Object
+96,A,B,Object
+97,A,B,Object
+98,A,B,Object
+99,A,B,Object
+100,A,B,Object
+101,A,B,Object
+102,A,A,Object
+103,B,B,Object
+104,A,A,Object
+105,A,A,Object
+106,A,B,Object
+107,A,B,Object
+108,A,B,Object
+109,A,A,Object
+110,A,B,Object
+111,A,B,Object
+112,A,B,Object
+113,A,A,Object
+114,A,B,Object
+115,A,B,Object
+116,A,A,Object
+117,B,B,Object
+118,A,B,Object
+119,A,A,Object
+120,A,B,Object
+121,A,B,Object
+122,A,A,Object
+123,A,B,Object
+124,A,B,Object
+125,A,B,Object
+126,A,A,Object
+127,A,B,Object
+128,A,A,Object
+129,A,B,Object
+130,A,B,Object
+131,A,B,Object
+132,B,B,Object
+133,A,A,Object
+134,A,B,Object
+135,A,B,Object
+136,A,B,Object
+137,A,B,Object
+138,A,A,Object
+139,A,A,Object
+140,A,B,Object
+141,A,A,Object
+142,A,B,Object
+143,A,B,Object
+144,A,B,Object
+145,A,B,Object
+146,A,B,Object
+147,A,A,Object
+148,A,B,Object
+149,A,B,Object
+150,A,B,Object
+151,A,B,Object
+152,A,A,Object
+153,B,B,Object
+154,A,B,Object
+155,A,B,Object
+156,A,B,Object
+157,A,A,Object
+158,A,B,Object
+159,A,B,Object
+160,A,B,Object
+161,A,B,Object
+162,B,B,Object
+163,A,A,Object
+164,A,B,Object
+165,A,B,Object
+166,B,B,Object
+167,A,B,Object
+168,A,B,Object
+169,A,B,Object
+170,A,B,Object
+171,A,A,Object
+172,A,A,Object
+173,A,B,Object
+174,A,B,Object
+175,A,B,Object
+176,A,B,Object
+177,A,B,Object
+178,A,B,Object
+179,A,B,Object
+180,A,B,Object
+181,A,B,Object
+182,A,B,Object
+183,A,B,Object
+184,A,A,Object
+185,A,B,Object
+186,A,B,Object
+187,A,A,Object
+188,A,B,Object
+189,A,A,Object
+190,A,A,Object
+191,A,B,Object
+192,A,A,Object
+193,A,B,Object
+194,A,B,Object
+195,A,B,Object
+196,B,B,Object
+197,A,B,Object
+198,B,B,Object
+199,A,B,Object
+200,B,B,Object
+201,A,A,Object
+202,A,B,Object
+203,A,B,Object
+204,A,A,Object
+205,A,B,Object
+206,A,B,Object
+207,A,B,Object
+208,A,B,Object
+209,A,B,Object
+210,A,B,Object
+211,A,A,Object
+212,A,B,Object
+213,A,B,Object
+214,A,A,Object
+215,A,B,Object
+216,A,B,Object
+217,A,B,Object
+218,A,B,Object
+219,A,B,Object
+220,A,B,Object
+221,A,B,Object
+222,A,A,Object
+223,A,B,Object
+224,A,B,Object
+225,A,B,Object
+226,A,B,Object
+227,A,B,Object
+228,A,B,Object
+229,A,B,Object
+230,A,B,Object
+231,A,B,Object
+232,A,B,Object
+233,A,A,Object
+234,A,A,Object
+235,A,B,Object
+236,A,B,Object
+237,A,B,Object
+238,A,A,Object
+239,A,B,Object
+240,A,B,Object
+241,A,B,Object
+242,A,B,Object
+243,A,B,Object
+244,A,B,Object
+245,A,B,Object
+246,A,B,Object
+247,A,B,Object
+248,A,B,Object
+249,A,A,Object
+250,A,B,Object
+251,A,B,Object
+252,A,B,Object
+253,A,A,Object
+254,A,B,Object
+255,A,B,Object
+256,A,B,Object
+257,A,B,Object
+258,A,B,Object
+259,A,B,Object
+260,A,B,Object
+261,A,A,Object
+262,A,B,Object
+263,A,A,Object
+264,A,B,Object
+265,A,B,Object
+266,A,B,Object
+267,A,B,Object
+268,A,B,Object
+269,A,A,Object
+270,A,B,Object
+271,A,A,Object
+272,A,B,Object
+273,A,A,Object
+274,A,B,Object
+275,A,B,Object
+276,A,B,Object
+277,A,A,Object
+278,A,B,Object
+279,A,B,Object
+280,A,B,Object
+281,A,B,Object
+282,A,B,Object
+283,A,B,Object
+284,A,B,Object
+285,B,B,Object
+286,A,B,Object
+287,B,B,Object
+288,A,A,Object
+289,A,A,Object
+290,A,B,Object
+291,B,B,Object
+292,A,B,Object
+293,A,B,Object
+294,A,B,Object
+295,A,B,Object
+296,A,B,Object
+297,A,B,Object
+298,A,B,Object
+299,A,A,Object
+300,A,B,Object
+301,A,A,Object
+302,A,B,Object
+303,A,B,Object
+304,A,B,Object
+305,A,B,Object
+306,A,B,Object
+307,A,B,Object
+308,A,B,Object
+309,A,B,Object
+310,A,B,Object
+311,A,B,Object
+312,A,A,Object
+313,A,B,Object
+314,A,B,Object
+315,A,A,Object
+316,A,B,Object
+317,A,B,Object
+318,A,B,Object
+319,A,B,Object
+320,A,A,Object
+321,A,B,Object
+322,A,B,Object
+323,A,B,Object
+324,A,B,Object
+325,A,B,Object
+326,A,B,Object
+327,A,B,Object
+328,A,B,Object
+329,A,B,Object
+330,A,B,Object
+331,B,B,Object
+332,A,B,Object
+333,A,B,Object
+334,A,B,Object
+335,A,B,Object
+336,A,B,Object
+337,A,B,Object
+338,A,A,Object
+339,A,B,Object
+340,B,B,Object
+341,A,B,Object
+342,B,B,Object
+343,B,B,Object
+344,A,A,Object
+345,A,A,Object
+346,A,B,Object
+347,A,B,Object
+348,A,B,Object
+349,A,A,Object
+350,A,B,Object
+351,A,B,Object
+352,A,B,Object
+353,A,B,Object
+354,A,A,Object
+355,A,B,Object
+356,A,B,Object
+357,A,B,Object
+358,A,B,Object
+359,A,B,Object
+360,A,B,Object
+361,A,B,Object
+362,A,B,Object
+363,A,B,Object
+364,B,B,Object
+365,A,B,Object
+366,A,B,Object
+367,A,A,Object
+368,B,B,Object
+369,A,A,Object
+370,A,B,Object
+371,A,B,Object
+372,A,B,Object
+373,A,B,Object
+374,A,B,Object
+375,A,A,Object
+376,A,A,Object
+377,B,B,Object
+378,A,B,Object
+379,A,B,Object
+380,A,B,Object
+381,A,A,Object
+382,A,A,Object
+383,A,B,Object
+384,A,B,Object
+385,B,B,Object
+386,A,B,Object
+387,B,B,Object
+388,A,A,Object
+389,A,B,Object
+390,A,B,Object
+391,A,B,Object
+392,A,B,Object
+393,A,A,Object
+394,A,B,Object
+395,A,A,Object
+396,A,B,Object
+397,A,A,Object
+398,A,A,Object
+399,A,B,Object
+400,A,A,Object
+401,A,B,Object
+402,A,B,Object
+403,A,B,Object
+404,A,A,Object
+405,A,B,Object
+406,A,B,Object
+407,A,A,Object
+408,A,B,Object
+409,A,B,Object
+410,A,B,Object
+411,A,B,Object
+412,A,B,Object
+413,A,B,Object
+414,A,B,Object
+415,A,B,Object
+416,A,B,Object
+417,A,B,Object
+418,A,A,Object
+419,A,B,Object
+420,A,B,Object
+421,"The image shows a plate of food that includes a piece of cake, a slice of watermelon, and a side of onion rings. There is also a cup of coffee. The presence of watermelon and the type of cake suggest that this is a dessert course, and the onion rings are likely",B,Object
+422,B,B,Object
+423,A,B,Object
+424,A,B,Object
+425,A,B,Object
+426,B,B,Object
+427,A,A,Object
+428,A,B,Object
+429,A,B,Object
+430,A,A,Object
+431,A,B,Object
+432,A,B,Object
+433,A,B,Object
+434,A,B,Object
+435,A,B,Object
+436,A,B,Object
+437,A,B,Object
+438,B,B,Object
+439,A,B,Object
+440,B,B,Object
+441,A,A,Object
+442,A,B,Object
+443,A,B,Object
+444,A,B,Object
+445,A,B,Object
+446,A,B,Object
+447,A,A,Object
+448,A,B,Object
+449,A,B,Object
+450,A,B,Object
+451,A,B,Object
+452,A,B,Object
+453,A,A,Object
+454,A,A,Object
+455,A,A,Object
+456,A,B,Object
+457,A,B,Object
+458,A,B,Object
+459,A,B,Object
+460,A,B,Object
+461,A,B,Object
+462,"The image does not match either of the provided choices. It shows a man holding a tennis racket in front of a Christmas tree, which is not a warehouse building with either brown or white furniture. ",B,Object
+463,A,B,Object
+464,A,B,Object
+465,A,B,Object
+466,B,B,Object
+467,A,A,Object
+468,A,B,Object
+469,A,A,Object
+470,A,B,Object
+471,A,B,Object
+472,A,A,Object
+473,A,B,Object
+474,A,B,Object
+475,A,A,Object
+476,A,B,Object
+477,A,B,Object
+478,A,B,Object
+479,A,B,Object
+480,A,A,Object
+481,A,B,Object
+482,A,B,Object
+483,A,B,Object
+484,A,B,Object
+485,A,B,Object
+486,A,B,Object
+487,A,B,Object
+488,A,A,Object
+489,A,A,Object
+490,A,B,Object
+491,A,B,Object
+492,A,B,Object
+493,A,A,Object
+494,A,A,Object
+495,"The image shows a man riding a Segway, not zebras. Therefore, there is no correct answer to this question. ","The image shows a man riding a Segway, not zebras. Therefore, there is no correct answer to this question. ",Object
+496,A,B,Object
+497,A,B,Object
+498,A,A,Object
+499,A,B,Object
+500,A,A,Object
+501,B,B,Object
+502,A,B,Object
+503,A,B,Object
+504,A,B,Object
+505,A,B,Object
+506,B,B,Object
+507,A,A,Object
+508,A,B,Object
+509,A,B,Object
+510,A,A,Object
+511,A,B,Object
+512,A,B,Object
+513,A,B,Object
+514,A,B,Object
+515,A,B,Object
+516,A,B,Object
+517,A,A,Object
+518,A,B,Object
+519,A,A,Object
+520,A,B,Object
+521,A,B,Object
+522,A,B,Object
+523,A,B,Object
+524,"The image shows a person sitting on a bench, holding a book and reading. The person is wearing a blue and white striped shirt, and there is a white bird perched on the car behind them. The setting appears to be outdoors, possibly in a park or a similar public space. The image does not",B,Object
+525,A,B,Object
+526,A,B,Object
+527,A,B,Object
+528,A,B,Object
+529,A,B,Object
+530,A,B,Object
+531,A,B,Object
+532,A,B,Object
+533,B,B,Object
+534,A,A,Object
+535,A,B,Object
+536,A,B,Object
+537,A,B,Object
+538,A,B,Object
+539,A,A,Object
+540,A,B,Object
+541,B,B,Object
+542,A,B,Object
+543,B,B,Object
+544,A,A,Object
+545,A,B,Object
+546,A,A,Object
+547,A,B,Object
+548,A,B,Object
+549,A,A,Object
+550,A,B,Object
+551,A,A,Object
+552,A,B,Object
+553,A,A,Object
+554,A,A,Object
+555,A,A,Object
+556,A,B,Object
+557,A,B,Object
+558,A,B,Object
+559,A,B,Object
+560,A,B,Object
+561,A,B,Object
+562,A,A,Object
+563,A,A,Object
+564,A,A,Object
+565,A,A,Object
+566,B,B,Object
+567,A,B,Object
+568,A,B,Object
+569,A,B,Object
+570,A,B,Object
+571,A,B,Object
+572,A,B,Object
+573,A,B,Object
+574,A,A,Object
+575,A,B,Object
+576,A,B,Object
+577,A,B,Object
+578,A,B,Object
+0,A,B,Attribute
+1,A,B,Attribute
+2,A,A,Attribute
+3,A,A,Attribute
+4,A,B,Attribute
+5,A,B,Attribute
+6,A,A,Attribute
+7,A,A,Attribute
+8,A,A,Attribute
+9,B,B,Attribute
+10,A,B,Attribute
+11,A,B,Attribute
+12,B,B,Attribute
+13,B,B,Attribute
+14,A,A,Attribute
+15,A,B,Attribute
+16,A,B,Attribute
+17,A,A,Attribute
+18,"The image shows a train, but it is not possible to definitively determine whether it is an old train or an antique train. Both terms can be used interchangeably to describe a train that is not in active service, but without more specific information, it is not possible to accurately identify the age or condition of",B,Attribute
+19,B,B,Attribute
+20,A,B,Attribute
+21,A,A,Attribute
+22,A,B,Attribute
+23,A,B,Attribute
+24,A,A,Attribute
+25,A,B,Attribute
+26,A,A,Attribute
+27,A,B,Attribute
+28,B,B,Attribute
+29,A,B,Attribute
+30,A,A,Attribute
+31,A,B,Attribute
+32,A,A,Attribute
+33,A,B,Attribute
+34,A,A,Attribute
+35,A,B,Attribute
+36,A,A,Attribute
+37,A,A,Attribute
+38,A,A,Attribute
+39,A,B,Attribute
+40,A,A,Attribute
+41,B,B,Attribute
+42,A,B,Attribute
+43,B,B,Attribute
+44,A,B,Attribute
+45,A,A,Attribute
+46,A,A,Attribute
+47,A,A,Attribute
+48,A,B,Attribute
+49,A,B,Attribute
+50,A,B,Attribute
+51,A,B,Attribute
+52,A,B,Attribute
+53,B,B,Attribute
+54,A,B,Attribute
+55,A,A,Attribute
+56,A,A,Attribute
+57,A,A,Attribute
+58,A,B,Attribute
+59,A,B,Attribute
+60,A,B,Attribute
+61,A,B,Attribute
+62,A,B,Attribute
+63,A,A,Attribute
+64,A,B,Attribute
+65,A,A,Attribute
+66,A,A,Attribute
+67,A,B,Attribute
+68,A,A,Attribute
+69,A,B,Attribute
+70,A,B,Attribute
+71,A,B,Attribute
+72,B,B,Attribute
+73,A,"The image shows a dog lying on a bed with a bowl of food next to it. The dog appears to be a large breed with a gray coat. The bowl of food is filled with what looks like a mixture of vegetables and cheese. The setting appears to be a room with a television in the background, and there",Attribute
+74,A,A,Attribute
+75,A,A,Attribute
+76,A,A,Attribute
+77,A,B,Attribute
+78,A,A,Attribute
+79,A,B,Attribute
+80,A,B,Attribute
+81,A,B,Attribute
+82,A,B,Attribute
+83,A,B,Attribute
+84,A,B,Attribute
+85,A,B,Attribute
+86,A,A,Attribute
+87,A,B,Attribute
+88,A,B,Attribute
+89,A,B,Attribute
+90,A,A,Attribute
+91,A,B,Attribute
+92,A,A,Attribute
+93,A,A,Attribute
+94,A,B,Attribute
+95,A,B,Attribute
+96,A,B,Attribute
+97,A,A,Attribute
+98,A,B,Attribute
+99,A,B,Attribute
+100,A,A,Attribute
+101,A,A,Attribute
+102,A,B,Attribute
+103,A,A,Attribute
+104,B,B,Attribute
+105,A,A,Attribute
+106,A,B,Attribute
+107,A,A,Attribute
+108,A,A,Attribute
+109,A,B,Attribute
+110,A,B,Attribute
+111,A,B,Attribute
+112,A,B,Attribute
+113,A,B,Attribute
+114,A,A,Attribute
+115,A,B,Attribute
+116,A,A,Attribute
+117,A,A,Attribute
+118,A,A,Attribute
+119,A,A,Attribute
+120,A,B,Attribute
+121,A,A,Attribute
+122,B,B,Attribute
+123,A,A,Attribute
+124,"The image shows a young girl holding a tennis racket, not cows. Therefore, there is no match for the cows in the image. ",B,Attribute
+125,A,A,Attribute
+126,A,A,Attribute
+127,A,B,Attribute
+128,A,B,Attribute
+129,A,B,Attribute
+130,A,A,Attribute
+131,A,B,Attribute
+132,A,A,Attribute
+133,A,B,Attribute
+134,A,A,Attribute
+135,A,A,Attribute
+136,A,A,Attribute
+137,A,B,Attribute
+138,A,A,Attribute
+139,A,A,Attribute
+140,A,A,Attribute
+141,A,B,Attribute
+142,A,A,Attribute
+143,A,A,Attribute
+144,A,A,Attribute
+145,A,A,Attribute
+146,A,B,Attribute
+147,A,A,Attribute
+148,A,A,Attribute
+149,A,B,Attribute
+150,A,B,Attribute
+151,A,A,Attribute
+152,A,A,Attribute
+153,A,B,Attribute
+154,A,B,Attribute
+155,A,A,Attribute
+156,A,B,Attribute
+157,A,B,Attribute
+158,A,B,Attribute
+159,A,B,Attribute
+160,A,A,Attribute
+161,A,A,Attribute
+162,A,A,Attribute
+163,A,A,Attribute
+164,A,B,Attribute
+165,A,A,Attribute
+166,A,A,Attribute
+167,A,A,Attribute
+168,A,B,Attribute
+169,A,A,Attribute
+170,A,B,Attribute
+171,A,B,Attribute
+172,A,A,Attribute
+173,A,B,Attribute
+174,A,B,Attribute
+175,A,B,Attribute
+176,B,B,Attribute
+177,A,A,Attribute
+178,A,B,Attribute
+179,B,B,Attribute
+180,A,A,Attribute
+181,A,A,Attribute
+182,A,B,Attribute
+183,A,A,Attribute
+184,A,A,Attribute
+185,A,B,Attribute
+186,A,A,Attribute
+187,A,A,Attribute
+188,A,A,Attribute
+189,A,A,Attribute
+190,A,B,Attribute
+191,A,B,Attribute
+192,A,B,Attribute
+193,A,A,Attribute
+194,A,B,Attribute
+195,A,B,Attribute
+196,A,B,Attribute
+197,A,B,Attribute
+198,B,B,Attribute
+199,A,B,Attribute
+200,A,A,Attribute
+201,A,A,Attribute
+202,A,A,Attribute
+203,A,A,Attribute
+204,A,B,Attribute
+205,A,B,Attribute
+206,A,B,Attribute
+207,A,B,Attribute
+208,A,B,Attribute
+209,A,B,Attribute
+210,A,A,Attribute
+211,A,A,Attribute
+212,A,A,Attribute
+213,A,B,Attribute
+214,A,B,Attribute
+215,A,B,Attribute
+216,A,A,Attribute
+217,A,A,Attribute
+218,A,A,Attribute
+219,A,A,Attribute
+220,A,A,Attribute
+221,A,B,Attribute
+222,A,B,Attribute
+223,A,B,Attribute
+224,A,A,Attribute
+225,A,A,Attribute
+226,A,B,Attribute
+227,A,B,Attribute
+228,A,B,Attribute
+229,A,B,Attribute
+230,A,B,Attribute
+231,A,B,Attribute
+232,A,B,Attribute
+233,A,B,Attribute
+234,A,"The image does not match either of the provided choices. The image shows a man standing next to a cow with a purple ribbon, not sitting on a tire. ",Attribute
+235,A,A,Attribute
+236,A,A,Attribute
+237,A,A,Attribute
+238,A,B,Attribute
+239,B,B,Attribute
+240,A,B,Attribute
+241,B,B,Attribute
+242,A,A,Attribute
+243,A,B,Attribute
+244,A,A,Attribute
+245,A,B,Attribute
+246,A,A,Attribute
+247,A,B,Attribute
+248,A,A,Attribute
+249,A,A,Attribute
+250,A,A,Attribute
+251,A,A,Attribute
+252,A,A,Attribute
+253,A,A,Attribute
+254,A,B,Attribute
+255,A,A,Attribute
+256,A,A,Attribute
+257,A,A,Attribute
+258,A,B,Attribute
+259,A,B,Attribute
+260,B,B,Attribute
+261,B,B,Attribute
+262,A,A,Attribute
+263,A,A,Attribute
+264,A,A,Attribute
+265,A,B,Attribute
+266,A,B,Attribute
+267,A,B,Attribute
+268,A,B,Attribute
+269,A,A,Attribute
+270,A,A,Attribute
+271,A,B,Attribute
+272,A,A,Attribute
+273,A,B,Attribute
+274,A,B,Attribute
+275,A,A,Attribute
+276,A,B,Attribute
+277,A,A,Attribute
+278,A,B,Attribute
+279,A,A,Attribute
+280,A,A,Attribute
+281,A,B,Attribute
+282,A,A,Attribute
+283,A,B,Attribute
+284,A,B,Attribute
+285,A,A,Attribute
+286,A,A,Attribute
+287,A,B,Attribute
+288,A,A,Attribute
+289,A,A,Attribute
+290,A,A,Attribute
+291,A,A,Attribute
+292,B,B,Attribute
+293,A,A,Attribute
+0,A,A,S. Relation
+1,B,B,S. Relation
+2,B,B,S. Relation
+3,B,B,S. Relation
+4,B,B,S. Relation
+5,B,B,S. Relation
+6,B,B,S. Relation
+7,B,B,S. Relation
+8,A,A,S. Relation
+9,B,B,S. Relation
+10,B,B,S. Relation
+11,A,A,S. Relation
+12,A,A,S. Relation
+13,B,B,S. Relation
+14,A,A,S. Relation
+15,A,B,S. Relation
+16,B,B,S. Relation
+17,B,B,S. Relation
+18,B,B,S. Relation
+19,A,A,S. Relation
+20,A,A,S. Relation
+21,A,B,S. Relation
+22,B,B,S. Relation
+23,B,B,S. Relation
+24,B,B,S. Relation
+25,B,B,S. Relation
+26,B,B,S. Relation
+27,B,B,S. Relation
+28,B,B,S. Relation
+29,B,B,S. Relation
+30,B,A,S. Relation
+31,A,A,S. Relation
+32,B,B,S. Relation
+33,A,A,S. Relation
+34,B,B,S. Relation
+35,B,B,S. Relation
+36,B,A,S. Relation
+37,B,B,S. Relation
+38,B,B,S. Relation
+39,A,A,S. Relation
+40,B,B,S. Relation
+41,A,A,S. Relation
+42,A,B,S. Relation
+43,B,B,S. Relation
+44,A,A,S. Relation
+45,B,B,S. Relation
+46,B,B,S. Relation
+47,B,B,S. Relation
+48,A,B,S. Relation
+49,B,B,S. Relation
+50,A,B,S. Relation
+51,B,B,S. Relation
+52,A,A,S. Relation
+53,A,A,S. Relation
+54,B,B,S. Relation
+55,B,B,S. Relation
+56,B,B,S. Relation
+57,B,B,S. Relation
+58,B,B,S. Relation
+59,B,B,S. Relation
+60,A,A,S. Relation
+61,A,A,S. Relation
+62,B,A,S. Relation
+63,B,B,S. Relation
+64,B,B,S. Relation
+65,A,A,S. Relation
+66,B,B,S. Relation
+67,B,B,S. Relation
+68,B,B,S. Relation
+69,A,A,S. Relation
+70,A,B,S. Relation
+71,B,B,S. Relation
+72,B,B,S. Relation
+73,B,B,S. Relation
+74,B,B,S. Relation
+75,B,B,S. Relation
+76,B,B,S. Relation
+77,A,A,S. Relation
+78,B,B,S. Relation
+79,B,B,S. Relation
+80,A,A,S. Relation
+81,A,A,S. Relation
+82,B,B,S. Relation
+83,B,B,S. Relation
+84,B,B,S. Relation
+85,A,A,S. Relation
+86,A,B,S. Relation
+87,B,B,S. Relation
+88,B,B,S. Relation
+89,B,B,S. Relation
+90,B,B,S. Relation
+91,B,B,S. Relation
+92,B,B,S. Relation
+93,A,A,S. Relation
+94,A,A,S. Relation
+95,B,B,S. Relation
+96,B,B,S. Relation
+97,B,B,S. Relation
+98,A,B,S. Relation
+99,A,A,S. Relation
+100,"The image shows a banana on a surface and an apple on a surface, but there is no clear indication of which one is above the other. The banana is to the left of the apple, but there is no direct visual cue to determine which one is above the other. ",B,S. Relation
+101,B,B,S. Relation
+102,B,B,S. Relation
+103,B,B,S. Relation
+104,B,B,S. Relation
+105,B,B,S. Relation
+106,B,B,S. Relation
+107,B,B,S. Relation
+108,A,B,S. Relation
+109,B,B,S. Relation
+110,B,B,S. Relation
+111,B,B,S. Relation
+112,B,B,S. Relation
+113,B,B,S. Relation
+114,A,A,S. Relation
+115,B,B,S. Relation
+116,B,B,S. Relation
+117,B,B,S. Relation
+118,B,A,S. Relation
+119,B,B,S. Relation
+120,A,A,S. Relation
+121,B,B,S. Relation
+122,B,B,S. Relation
+123,B,B,S. Relation
+124,B,B,S. Relation
+125,B,B,S. Relation
+126,A,A,S. Relation
+127,B,B,S. Relation
+128,B,B,S. Relation
+129,A,A,S. Relation
+130,B,B,S. Relation
+131,B,B,S. Relation
+132,A,A,S. Relation
+133,B,B,S. Relation
+134,A,A,S. Relation
+135,B,B,S. Relation
+136,A,B,S. Relation
+137,B,B,S. Relation
+138,B,A,S. Relation
+139,B,B,S. Relation
+140,A,A,S. Relation
+141,B,B,S. Relation
+142,A,B,S. Relation
+143,B,B,S. Relation
+144,A,A,S. Relation
+145,A,B,S. Relation
+146,B,B,S. Relation
+147,B,B,S. Relation
+148,B,B,S. Relation
+149,A,B,S. Relation
+150,A,A,S. Relation
+151,B,B,S. Relation
+152,B,B,S. Relation
+153,B,B,S. Relation
+154,B,B,S. Relation
+155,B,B,S. Relation
+156,A,A,S. Relation
+157,A,A,S. Relation
+158,B,B,S. Relation
+159,B,B,S. Relation
+160,A,A,S. Relation
+161,A,A,S. Relation
+162,A,A,S. Relation
+163,B,B,S. Relation
+164,B,B,S. Relation
+165,A,A,S. Relation
+166,The image shows a cat above a turtle.,The image shows a cat sitting above a turtle.,S. Relation
+167,A,A,S. Relation
+168,A,A,S. Relation
+169,A,A,S. Relation
+170,B,B,S. Relation
+171,A,A,S. Relation
+172,B,A,S. Relation
+173,B,B,S. Relation
+174,A,A,S. Relation
+175,A,A,S. Relation
+176,A,A,S. Relation
+177,B,B,S. Relation
+178,B,B,S. Relation
+179,A,A,S. Relation
+180,B,B,S. Relation
+181,A,A,S. Relation
+182,A,B,S. Relation
+183,A,B,S. Relation
+184,B,B,S. Relation
+185,B,B,S. Relation
+186,B,B,S. Relation
+187,B,B,S. Relation
+188,B,B,S. Relation
+189,A,B,S. Relation
+190,B,B,S. Relation
+191,B,B,S. Relation
+192,A,B,S. Relation
+193,A,A,S. Relation
+194,B,B,S. Relation
+195,B,B,S. Relation
+196,B,B,S. Relation
+197,A,A,S. Relation
+198,B,B,S. Relation
+199,B,B,S. Relation
+200,B,B,S. Relation
+201,A,A,S. Relation
+202,A,A,S. Relation
+203,B,B,S. Relation
+204,B,B,S. Relation
+205,A,A,S. Relation
+206,B,B,S. Relation
+207,A,A,S. Relation
+208,B,B,S. Relation
+209,B,B,S. Relation
+210,A,A,S. Relation
+211,A,The image shows a penguin standing to the left and a polar bear on the right.,S. Relation
+212,B,B,S. Relation
+213,B,B,S. Relation
+214,B,B,S. Relation
+215,B,B,S. Relation
+216,B,B,S. Relation
+217,A,A,S. Relation
+218,A,B,S. Relation
+219,B,B,S. Relation
+220,B,B,S. Relation
+221,A,A,S. Relation
+222,B,B,S. Relation
+223,A,A,S. Relation
+224,B,B,S. Relation
+225,A,A,S. Relation
+226,A,A,S. Relation
+227,B,B,S. Relation
+228,B,B,S. Relation
+229,A,A,S. Relation
+230,B,B,S. Relation
+231,A,A,S. Relation
+232,B,B,S. Relation
+233,B,B,S. Relation
+234,A,A,S. Relation
+235,A,B,S. Relation
+236,A,A,S. Relation
+237,B,B,S. Relation
+238,A,B,S. Relation
+239,B,B,S. Relation
+240,A,A,S. Relation
+241,B,B,S. Relation
+242,A,A,S. Relation
+243,B,B,S. Relation
+244,B,B,S. Relation
+245,A,B,S. Relation
+246,B,B,S. Relation
+247,B,B,S. Relation
+248,B,B,S. Relation
+249,B,B,S. Relation
+250,B,B,S. Relation
+251,A,A,S. Relation
+252,B,B,S. Relation
+253,B,B,S. Relation
+254,A,B,S. Relation
+255,A,A,S. Relation
+256,B,B,S. Relation
+257,B,B,S. Relation
+258,A,A,S. Relation
+259,B,B,S. Relation
+260,A,A,S. Relation
+261,A,A,S. Relation
+262,B,B,S. Relation
+263,B,B,S. Relation
+264,B,B,S. Relation
+265,A,A,S. Relation
+266,B,A,S. Relation
+267,B,B,S. Relation
+268,A,A,S. Relation
+269,A,A,S. Relation
+270,A,A,S. Relation
+271,B,B,S. Relation
+272,B,B,S. Relation
+273,B,B,S. Relation
+274,B,B,S. Relation
+275,A,B,S. Relation
+276,A,A,S. Relation
+277,B,B,S. Relation
+278,B,B,S. Relation
+279,B,B,S. Relation
+280,B,B,S. Relation
+281,B,B,S. Relation
+282,A,A,S. Relation
+283,A,A,S. Relation
+284,A,B,S. Relation
+285,B,B,S. Relation
+286,B,B,S. Relation
+287,B,B,S. Relation
+288,A,A,S. Relation
+289,B,B,S. Relation
+290,B,B,S. Relation
+291,B,B,S. Relation
+292,A,A,S. Relation
+293,B,B,S. Relation
+294,B,B,S. Relation
+295,A,A,S. Relation
+296,B,B,S. Relation
+297,A,A,S. Relation
+298,B,B,S. Relation
+299,B,B,S. Relation
+300,B,A,S. Relation
+301,B,B,S. Relation
+302,A,A,S. Relation
+303,B,B,S. Relation
+304,A,A,S. Relation
+305,A,B,S. Relation
+306,A,A,S. Relation
+307,B,B,S. Relation
+308,A,A,S. Relation
+309,A,A,S. Relation
+310,A,B,S. Relation
+311,A,A,S. Relation
+312,A,A,S. Relation
+313,B,B,S. Relation
+314,B,B,S. Relation
+315,A,A,S. Relation
+316,B,B,S. Relation
+317,B,B,S. Relation
+318,A,A,S. Relation
+319,A,A,S. Relation
+320,A,A,S. Relation
+321,B,B,S. Relation
+322,B,B,S. Relation
+323,B,B,S. Relation
+324,B,B,S. Relation
+325,B,B,S. Relation
+326,B,B,S. Relation
+327,B,B,S. Relation
+328,A,A,S. Relation
+329,B,B,S. Relation
+330,B,The image shows a bird on the right and a cellphone on the left.,S. Relation
+331,A,A,S. Relation
+332,B,B,S. Relation
+333,B,B,S. Relation
+334,B,B,S. Relation
+335,B,B,S. Relation
+336,A,B,S. Relation
+337,B,B,S. Relation
+338,A,A,S. Relation
+339,A,A,S. Relation
+340,A,A,S. Relation
+341,B,B,S. Relation
+342,B,B,S. Relation
+343,B,B,S. Relation
+344,B,B,S. Relation
+345,B,B,S. Relation
+346,A,A,S. Relation
+347,B,B,S. Relation
+348,A,A,S. Relation
+349,B,B,S. Relation
+350,B,B,S. Relation
+351,A,A,S. Relation
+352,B,B,S. Relation
+353,A,A,S. Relation
+354,B,B,S. Relation
+355,A,A,S. Relation
+356,B,B,S. Relation
+357,B,B,S. Relation
+358,A,B,S. Relation
+359,B,B,S. Relation
+360,B,A,S. Relation
+361,B,B,S. Relation
+362,B,B,S. Relation
+363,B,B,S. Relation
+364,A,A,S. Relation
+365,B,B,S. Relation
+366,A,A,S. Relation
+367,A,A,S. Relation
+368,A,A,S. Relation
+369,B,B,S. Relation
+370,B,B,S. Relation
+371,B,B,S. Relation
+372,A,A,S. Relation
+373,B,B,S. Relation
+374,B,B,S. Relation
+375,B,B,S. Relation
+376,B,A,S. Relation
+377,B,B,S. Relation
+378,A,A,S. Relation
+379,A,A,S. Relation
+380,B,B,S. Relation
+381,A,A,S. Relation
+382,A,A,S. Relation
+383,B,B,S. Relation
+384,A,A,S. Relation
+385,B,B,S. Relation
+386,B,B,S. Relation
+387,A,A,S. Relation
+388,A,B,S. Relation
+389,A,A,S. Relation
+390,B,B,S. Relation
+391,A,B,S. Relation
+392,B,B,S. Relation
+393,A,A,S. Relation
+394,B,B,S. Relation
+395,B,B,S. Relation
+396,B,B,S. Relation
+397,A,A,S. Relation
+398,B,B,S. Relation
+399,B,B,S. Relation
+400,B,B,S. Relation
+401,B,B,S. Relation
+402,B,B,S. Relation
+403,A,A,S. Relation
+404,A,A,S. Relation
+405,B,B,S. Relation
+406,A,A,S. Relation
+407,A,A,S. Relation
+408,B,B,S. Relation
+409,A,A,S. Relation
+410,B,B,S. Relation
+411,A,A,S. Relation
+412,B,B,S. Relation
+413,B,B,S. Relation
+414,A,B,S. Relation
+415,B,A,S. Relation
+416,B,B,S. Relation
+417,B,B,S. Relation
+418,A,A,S. Relation
+419,A,A,S. Relation
+420,A,B,S. Relation
+421,B,B,S. Relation
+422,B,B,S. Relation
+423,B,B,S. Relation
+424,A,A,S. Relation
+425,A,B,S. Relation
+426,B,B,S. Relation
+427,B,B,S. Relation
+428,A,B,S. Relation
+429,B,B,S. Relation
+430,B,B,S. Relation
+431,A,A,S. Relation
+432,B,B,S. Relation
+433,B,B,S. Relation
+434,A,B,S. Relation
+435,A,A,S. Relation
+436,B,B,S. Relation
+437,A,A,S. Relation
+438,A,A,S. Relation
+439,B,B,S. Relation
+440,B,B,S. Relation
+441,B,B,S. Relation
+442,A,B,S. Relation
+443,B,B,S. Relation
+444,B,B,S. Relation
+445,B,B,S. Relation
+446,B,B,S. Relation
+447,B,B,S. Relation
+448,B,B,S. Relation
+449,A,A,S. Relation
+450,A,A,S. Relation
+451,A,A,S. Relation
+452,B,B,S. Relation
+453,B,B,S. Relation
+454,B,B,S. Relation
+455,B,B,S. Relation
+456,B,B,S. Relation
+457,B,B,S. Relation
+458,A,A,S. Relation
+459,B,B,S. Relation
+460,B,B,S. Relation
+461,B,B,S. Relation
+462,B,B,S. Relation
+463,A,B,S. Relation
+464,B,B,S. Relation
+465,B,B,S. Relation
+466,A,A,S. Relation
+467,B,B,S. Relation
+468,B,B,S. Relation
+469,B,B,S. Relation
+470,B,B,S. Relation
+471,B,B,S. Relation
+472,A,B,S. Relation
+473,B,B,S. Relation
+474,B,B,S. Relation
+475,B,B,S. Relation
+476,A,The image does not contain a pancake. It features a cow standing on a grassy field next to a file cabinet and a printer.,S. Relation
+477,B,B,S. Relation
+478,B,B,S. Relation
+479,B,B,S. Relation
+480,B,B,S. Relation
+481,B,B,S. Relation
+482,B,B,S. Relation
+483,B,B,S. Relation
+484,A,B,S. Relation
+485,A,A,S. Relation
+486,B,B,S. Relation
+487,B,B,S. Relation
+488,B,B,S. Relation
+489,A,A,S. Relation
+490,B,B,S. Relation
+491,A,A,S. Relation
+492,A,A,S. Relation
+493,A,A,S. Relation
+494,A,A,S. Relation
+495,B,B,S. Relation
+496,B,B,S. Relation
+497,A,A,S. Relation
+498,A,A,S. Relation
+499,B,B,S. Relation
+500,B,B,S. Relation
+501,B,B,S. Relation
+502,A,A,S. Relation
+503,B,B,S. Relation
+504,B,B,S. Relation
+505,B,B,S. Relation
+506,B,B,S. Relation
+507,B,B,S. Relation
+508,B,B,S. Relation
+509,B,B,S. Relation
+510,A,A,S. Relation
+511,B,B,S. Relation
+512,B,B,S. Relation
+513,B,B,S. Relation
+514,B,B,S. Relation
+515,B,B,S. Relation
+516,"The image shows a bird standing on a clear container, which is placed on a surface. The bird is not on top of the container; rather, the container is on top of the bird. ","The image shows a long-beaked bird, which appears to be a stork, standing on a clear container. The bird is not on top of the container; rather, the container is on top of the bird. ",S. Relation
+517,A,A,S. Relation
+518,B,B,S. Relation
+519,B,B,S. Relation
+520,B,B,S. Relation
+521,B,B,S. Relation
+522,B,B,S. Relation
+523,B,B,S. Relation
+524,B,A,S. Relation
+525,A,A,S. Relation
+526,A,B,S. Relation
+527,B,A,S. Relation
+528,B,B,S. Relation
+529,A,B,S. Relation
+530,B,B,S. Relation
+531,A,A,S. Relation
+532,B,B,S. Relation
+533,B,B,S. Relation
+534,B,B,S. Relation
+535,B,B,S. Relation
+536,B,B,S. Relation
+537,A,A,S. Relation
+538,B,B,S. Relation
+539,B,B,S. Relation
+540,B,B,S. Relation
+541,B,B,S. Relation
+542,B,B,S. Relation
+543,A,A,S. Relation
+544,B,B,S. Relation
+545,B,A,S. Relation
+546,B,B,S. Relation
+547,A,A,S. Relation
+548,B,B,S. Relation
+549,B,B,S. Relation
+550,A,B,S. Relation
+551,B,B,S. Relation
+552,B,B,S. Relation
+553,B,B,S. Relation
+554,B,B,S. Relation
+555,B,B,S. Relation
+556,A,A,S. Relation
+557,B,B,S. Relation
+558,A,A,S. Relation
+559,B,B,S. Relation
+560,B,B,S. Relation
+561,A,A,S. Relation
+562,A,A,S. Relation
+563,B,B,S. Relation
+564,B,B,S. Relation
+565,B,B,S. Relation
+566,A,A,S. Relation
+567,B,A,S. Relation
+568,B,B,S. Relation
+569,B,A,S. Relation
+570,B,B,S. Relation
+571,A,A,S. Relation
+572,A,A,S. Relation
+573,A,A,S. Relation
+574,A,A,S. Relation
+575,A,B,S. Relation
+576,B,B,S. Relation
+577,B,B,S. Relation
+578,A,A,S. Relation
+579,A,A,S. Relation
+580,A,B,S. Relation
+581,A,B,S. Relation
+582,A,B,S. Relation
+583,B,B,S. Relation
+584,B,B,S. Relation
+585,B,B,S. Relation
+586,B,B,S. Relation
+587,B,B,S. Relation
+588,B,B,S. Relation
+589,A,A,S. Relation
+590,B,A,S. Relation
+591,A,A,S. Relation
+592,B,B,S. Relation
+593,A,A,S. Relation
+594,B,B,S. Relation
+595,B,B,S. Relation
+596,B,B,S. Relation
+597,B,B,S. Relation
+598,B,B,S. Relation
+599,B,B,S. Relation
+600,A,A,S. Relation
+601,B,B,S. Relation
+602,B,B,S. Relation
+603,A,B,S. Relation
+604,B,B,S. Relation
+605,B,B,S. Relation
+606,B,B,S. Relation
+607,B,B,S. Relation
+608,B,B,S. Relation
+609,B,B,S. Relation
+610,B,B,S. Relation
+611,A,A,S. Relation
+612,A,A,S. Relation
+613,A,A,S. Relation
+614,B,B,S. Relation
+615,A,A,S. Relation
+616,B,B,S. Relation
+617,A,A,S. Relation
+618,B,B,S. Relation
+619,B,B,S. Relation
+620,A,A,S. Relation
+621,B,B,S. Relation
+0,B,B,Count
+1,B,B,Count
+2,B,B,Count
+3,A,A,Count
+4,A,A,Count
+5,A,A,Count
+6,A,A,Count
+7,B,B,Count
+8,B,B,Count
+9,A,B,Count
+10,B,B,Count
+11,A,B,Count
+12,A,A,Count
+13,B,B,Count
+14,A,B,Count
+15,B,B,Count
+16,B,B,Count
+17,B,B,Count
+18,B,A,Count
+19,B,B,Count
+20,A,A,Count
+21,B,B,Count
+22,B,B,Count
+23,A,A,Count
+24,B,B,Count
+25,A,A,Count
+26,B,B,Count
+27,B,A,Count
+28,B,B,Count
+29,B,B,Count
+30,B,B,Count
+31,B,B,Count
+32,A,B,Count
+33,A,A,Count
+34,B,B,Count
+35,B,B,Count
+36,B,B,Count
+37,B,B,Count
+38,B,B,Count
+39,B,B,Count
+40,B,B,Count
+41,B,B,Count
+42,B,B,Count
+43,B,B,Count
+44,B,B,Count
+45,B,B,Count
+46,B,B,Count
+47,B,B,Count
+48,B,B,Count
+49,B,B,Count
+50,B,B,Count
+51,A,B,Count
+52,B,B,Count
+53,B,B,Count
+54,B,B,Count
+55,B,A,Count
+56,B,B,Count
+57,A,A,Count
+58,A,A,Count
+59,B,B,Count
+60,B,B,Count
+61,A,B,Count
+62,A,A,Count
+63,B,B,Count
+64,A,B,Count
+65,B,B,Count
+66,B,B,Count
+67,B,B,Count
+68,B,B,Count
+69,A,A,Count
+70,B,B,Count
+71,B,B,Count
+72,B,B,Count
+73,A,A,Count
+74,B,B,Count
+75,B,B,Count
+76,B,B,Count
+77,B,B,Count
+78,B,B,Count
+79,B,B,Count
+80,B,B,Count
+81,B,B,Count
+82,B,B,Count
+83,B,B,Count
+84,B,B,Count
+85,A,A,Count
+86,A,A,Count
+87,B,A,Count
+88,A,B,Count
+89,A,B,Count
+90,B,B,Count
+91,B,B,Count
+92,B,B,Count
+93,B,B,Count
+94,B,B,Count
+95,B,B,Count
+96,A,A,Count
+97,B,B,Count
+98,A,A,Count
+99,B,B,Count
+100,B,B,Count
+101,A,The image shows a collection of five apples placed on a wooden table.,Count
+102,B,B,Count
+103,B,B,Count
+104,B,B,Count
+105,B,B,Count
+106,B,B,Count
+107,B,B,Count
+108,B,B,Count
+109,B,B,Count
+110,"The image shows three blue jays, not four. ",B,Count
+111,B,B,Count
+112,A,A,Count
+113,A,B,Count
+114,A,A,Count
+115,A,A,Count
+116,B,B,Count
+117,B,B,Count
+118,B,B,Count
+119,B,B,Count
+120,A,B,Count
+121,B,B,Count
+122,B,B,Count
+123,B,B,Count
+124,B,A,Count
+125,B,B,Count
+126,A,B,Count
+127,A,A,Count
+128,B,B,Count
+129,A,A,Count
+130,B,B,Count
+131,B,B,Count
+132,A,A,Count
+133,B,B,Count
+134,B,B,Count
+135,A,B,Count
+136,B,B,Count
+137,A,B,Count
+138,A,A,Count
+139,B,B,Count
+140,A,A,Count
+141,B,B,Count
+142,A,A,Count
+143,B,B,Count
+144,A,A,Count
+145,A,B,Count
+146,B,B,Count
+147,A,B,Count
+148,B,B,Count
+149,B,B,Count
+150,B,B,Count
+151,A,A,Count
+152,B,B,Count
+153,A,A,Count
+154,A,B,Count
+155,A,B,Count
+156,B,B,Count
+157,B,B,Count
+158,B,B,Count
+159,B,B,Count
+160,B,B,Count
+161,B,B,Count
+162,A,B,Count
+163,B,B,Count
+164,A,B,Count
+165,A,B,Count
+166,B,B,Count
+167,B,B,Count
+168,B,B,Count
+169,A,A,Count
+170,The image shows a row of three restaurant signs.,B,Count
+171,B,B,Count
+172,A,A,Count
+173,A,B,Count
+174,B,B,Count
+175,B,B,Count
+176,B,B,Count
+177,A,B,Count
+178,B,B,Count
+179,B,B,Count
+180,B,B,Count
+181,B,B,Count
+182,B,B,Count
+183,B,B,Count
+184,A,B,Count
+185,B,B,Count
+186,B,B,Count
+187,B,B,Count
+188,B,B,Count
+189,A,A,Count
+190,B,B,Count
+191,B,"The image does not contain any surfboards. It shows a room with a red chair, a clock, and a potted plant. ",Count
+192,B,B,Count
+193,B,B,Count
+194,B,B,Count
+195,B,B,Count
+196,B,A,Count
+197,B,B,Count
+198,B,B,Count
+199,B,B,Count
+200,B,B,Count
+201,B,B,Count
+202,A,A,Count
+203,B,B,Count
+204,B,B,Count
+205,B,B,Count
+206,B,B,Count
+207,B,B,Count
+208,B,B,Count
+209,B,A,Count
+210,A,B,Count
+211,A,A,Count
+212,A,B,Count
+213,B,B,Count
+214,B,B,Count
+215,A,A,Count
+216,B,B,Count
+217,B,B,Count
+218,B,B,Count
+219,B,A,Count
+220,B,B,Count
+221,B,B,Count
+222,B,B,Count
+223,A,A,Count
+224,A,A,Count
+225,B,B,Count
+226,B,B,Count
+227,B,B,Count
+228,B,B,Count
+229,B,B,Count
+230,B,B,Count
+231,B,B,Count
+232,B,B,Count
+233,B,B,Count
+234,B,B,Count
+235,B,B,Count
+236,A,A,Count
+237,A,B,Count
+238,B,B,Count
+239,B,B,Count
+240,B,B,Count
+241,B,B,Count
+242,B,B,Count
+243,B,B,Count
+244,B,B,Count
+245,B,B,Count
+246,B,B,Count
+247,B,B,Count
+248,B,B,Count
+249,B,B,Count
+250,B,B,Count
+251,A,A,Count
+252,B,B,Count
+253,B,B,Count
+254,A,B,Count
+255,A,A,Count
+256,A,B,Count
+257,B,B,Count
+258,B,B,Count
+259,B,A,Count
+260,B,A,Count
+261,B,B,Count
+262,B,B,Count
+263,B,B,Count
+264,A,B,Count
+265,B,B,Count
+266,B,B,Count
+267,B,B,Count
+268,B,B,Count
+269,B,B,Count
+270,A,A,Count
+271,A,B,Count
+272,B,A,Count
+273,B,B,Count
+274,A,B,Count
+275,B,A,Count
+276,A,B,Count
+277,A,B,Count
+278,B,B,Count
+279,A,A,Count
+280,A,A,Count
+281,B,A,Count
+282,B,B,Count
+283,B,B,Count
+284,B,B,Count
+285,B,B,Count
+286,A,B,Count
+287,A,A,Count
+288,B,B,Count
+289,B,B,Count
+290,B,B,Count
+291,B,B,Count
+292,A,B,Count
+293,B,B,Count
+294,A,B,Count
+295,B,B,Count
+296,B,B,Count
+297,B,B,Count
+298,B,B,Count
+299,B,B,Count
+300,B,B,Count
+301,A,B,Count
+302,B,B,Count
+303,B,B,Count
+304,B,B,Count
+305,B,B,Count
+306,B,B,Count
+307,B,B,Count
+308,A,A,Count
+309,B,B,Count
+310,B,B,Count
+311,A,A,Count
+312,B,B,Count
+313,B,B,Count
+314,B,B,Count
+315,B,B,Count
+316,B,B,Count
+317,B,B,Count
+318,B,B,Count
+319,A,B,Count
+320,B,B,Count
+321,B,B,Count
+322,B,B,Count
+323,A,B,Count
+324,B,B,Count
+325,B,B,Count
+326,A,B,Count
+327,B,B,Count
+328,B,B,Count
+329,B,B,Count
+330,B,B,Count
+331,A,A,Count
+332,B,B,Count
+333,"The image shows a group of puppies, but there are not nine or six puppies. There are seven puppies in the image. ",B,Count
+334,B,B,Count
+335,A,A,Count
+336,B,B,Count
+337,B,B,Count
+338,B,B,Count
+339,B,B,Count
+340,B,B,Count
+341,B,B,Count
+342,B,B,Count
+343,B,B,Count
+344,B,B,Count
+345,A,A,Count
+346,B,B,Count
+347,A,B,Count
+348,B,B,Count
+349,A,B,Count
+350,B,B,Count
+351,B,B,Count
+352,B,B,Count
+353,B,B,Count
+354,B,B,Count
+355,A,A,Count
+356,B,B,Count
+357,A,B,Count
+358,B,B,Count
+359,B,B,Count
+360,B,B,Count
+361,B,B,Count
+362,A,A,Count
+363,A,A,Count
+364,B,B,Count
+365,B,B,Count
+366,A,B,Count
+367,B,B,Count
+368,B,B,Count
+369,B,B,Count
+370,A,A,Count
+371,B,B,Count
+372,A,A,Count
+373,A,A,Count
+374,A,A,Count
+375,B,B,Count
+376,B,B,Count
+377,A,B,Count
+378,A,A,Count
+379,B,B,Count
+380,A,B,Count
+381,B,B,Count
+382,B,B,Count
+383,B,B,Count
+384,B,B,Count
+385,B,B,Count
+386,B,B,Count
+387,B,B,Count
+388,B,B,Count
+389,B,A,Count
+390,B,B,Count
+391,B,B,Count
+392,B,B,Count
+393,B,B,Count
+394,B,B,Count
+395,B,B,Count
+396,B,B,Count
+397,A,B,Count
+398,A,B,Count
+399,B,B,Count
+400,B,B,Count
+401,B,B,Count
+402,A,A,Count
+403,B,B,Count
+404,B,B,Count
+405,B,B,Count
+406,B,B,Count
+407,The image shows three dolphins swimming in the ocean.,The image shows three dolphins swimming in the ocean.,Count
+408,B,B,Count
+409,A,B,Count
+410,B,B,Count
+411,B,B,Count
+412,B,B,Count
+413,B,B,Count
+414,B,A,Count
+415,B,B,Count
+416,B,B,Count
+417,B,B,Count
+418,B,A,Count
+419,A,B,Count
+420,B,B,Count
+421,B,B,Count
+422,A,A,Count
+423,B,B,Count
+424,B,B,Count
+425,A,B,Count
+426,B,B,Count
+427,B,B,Count
+428,B,B,Count
+429,A,B,Count
+430,A,A,Count
+431,A,A,Count
+432,A,A,Count
+433,A,B,Count
+434,B,B,Count
+435,B,B,Count
+436,B,B,Count
+437,B,B,Count
+438,A,B,Count
+439,B,B,Count
+440,B,B,Count
+441,A,B,Count
+442,B,B,Count
+443,B,B,Count
+444,B,B,Count
+445,A,B,Count
+446,B,B,Count
+447,A,A,Count
+448,B,B,Count
+449,A,"The image shows a row of three paintings, not four. ",Count
+450,B,B,Count
+451,A,A,Count
+452,B,B,Count
+453,B,B,Count
+454,B,B,Count
+455,B,B,Count
+456,B,B,Count
+457,B,B,Count
+458,B,A,Count
+459,A,B,Count
+460,B,B,Count
+461,B,B,Count
+462,B,B,Count
+463,B,B,Count
+464,B,B,Count
+465,B,B,Count
+466,B,B,Count
+467,A,A,Count
+468,B,B,Count
+469,B,B,Count
+470,A,A,Count
+471,A,B,Count
+472,B,B,Count
+473,B,B,Count
+474,B,B,Count
+475,B,B,Count
+476,B,B,Count
+477,B,B,Count
+478,B,B,Count
+479,B,B,Count
+480,B,B,Count
+481,B,B,Count
+482,A,B,Count
+483,B,B,Count
+484,B,B,Count
+485,B,B,Count
+486,A,A,Count
+487,B,B,Count
+488,B,B,Count
+489,A,B,Count
+490,B,B,Count
+491,A,A,Count
+492,A,B,Count
+493,B,B,Count
+494,B,B,Count
+495,B,B,Count
+496,A,B,Count
+497,B,B,Count
+498,B,B,Count
+499,B,B,Count
+500,A,B,Count
+501,B,B,Count
+502,B,B,Count
+503,B,B,Count
+504,B,B,Count
+505,B,B,Count
+506,B,B,Count
+507,B,A,Count
+508,A,B,Count
+509,B,B,Count
+510,B,B,Count
+511,A,A,Count
+512,B,B,Count
+513,B,B,Count
+514,A,A,Count
+515,B,B,Count
+516,B,B,Count
+517,B,B,Count
+518,B,B,Count
+519,A,B,Count
+520,B,B,Count
+521,B,B,Count
+522,B,B,Count
+523,B,B,Count
+524,B,B,Count
+525,A,A,Count
+526,B,B,Count
+527,B,B,Count
+528,B,B,Count
+529,A,B,Count
+530,A,A,Count
+531,A,B,Count
+532,A,B,Count
+533,A,B,Count
+534,B,B,Count
+535,A,B,Count
+536,B,B,Count
+537,B,B,Count
+538,B,B,Count
+539,A,A,Count
+540,A,B,Count
+541,A,B,Count
+542,B,B,Count
+543,B,B,Count
+544,B,A,Count
+545,B,B,Count
+546,B,B,Count
+547,B,B,Count
+548,B,B,Count
+549,"The image shows three blue jet skis, not four. ",B,Count
+550,B,B,Count
+551,B,B,Count
+552,B,B,Count
+553,B,B,Count
+554,A,B,Count
+555,B,B,Count
+556,A,A,Count
+557,B,B,Count
+558,B,B,Count
+559,B,B,Count
+560,B,B,Count
+561,B,B,Count
+562,B,B,Count
+563,A,A,Count
+564,B,B,Count
+565,B,B,Count
+566,B,B,Count
+567,B,B,Count
+568,A,A,Count
+569,A,A,Count
+570,B,B,Count
+571,B,B,Count
+572,B,B,Count
+573,B,B,Count
+574,B,B,Count
+575,A,A,Count
+576,B,B,Count
+577,B,B,Count
+578,A,A,Count
+579,B,B,Count
+580,B,B,Count
+581,B,B,Count
+582,B,B,Count
+583,B,B,Count
+584,B,B,Count
+585,B,B,Count
+586,B,B,Count
+587,A,A,Count
+588,A,A,Count
