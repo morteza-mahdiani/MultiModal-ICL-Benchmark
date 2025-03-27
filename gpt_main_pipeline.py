@@ -1,6 +1,8 @@
 import os
 import random
-import openai
+from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 from datasets import load_dataset
 import pandas as pd
 from dotenv import load_dotenv  # Import dotenv
@@ -9,7 +11,6 @@ from dotenv import load_dotenv  # Import dotenv
 load_dotenv()
 
 # Set API keys
-openai.api_key = os.getenv('OPENAI_API_KEY')
 huggingface_api_key = os.getenv('HUGGINGFACE_API_KEY')
 
 # Load the VisMin benchmark dataset from Hugging Face
@@ -50,25 +51,21 @@ def build_text_prompt(few_shot_examples, eval_sample):
 
 # Evaluate text-based questions using OpenAI API
 def evaluate_text_question(prompt):
-    response = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.2
-    )
-    return response['choices'][0]['message']['content']
+    response = client.chat.completions.create(model="gpt-4",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": prompt}
+    ],
+    temperature=0.2)
+    return response.choices[0].message.content
 
 # Evaluate image-based questions using OpenAI Vision API
 def evaluate_image_question(image_path, question):
     try:
-        response = openai.Image.create(
-            file=open(image_path, 'rb'),
-            prompt=question,
-            n=1,
-            size="1024x1024"
-        )
+        response = client.images.generate(file=open(image_path, 'rb'),
+        prompt=question,
+        n=1,
+        size="1024x1024")
         return response
     except Exception as e:
         return f"Error processing image: {e}"
@@ -85,7 +82,7 @@ for sample in data_samples:
         image_eval = evaluate_image_question(sample['image_0'], sample['image_question_0'])
     except Exception as e:
         image_eval = f"Error processing image: {e}"
-    
+
     results.append({
         'sample_id': sample.get('id', None),
         'category': get_category(sample),
