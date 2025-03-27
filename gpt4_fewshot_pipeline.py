@@ -237,10 +237,10 @@ if __name__ == '__main__':
 
     parser.add_argument("--finetuned", type=lambda x: x.lower() == 'true', default=False, help="Flag for finetuned model (ignored for GPT-4-O)")
     parser.add_argument("--batch_size", type=int, default=8, help="Batch size for evaluation")
-    parser.add_argument("--num_fewshot_examples", type=int, default=1, help="Number of few-shot examples to use")
+    parser.add_argument("--num_fewshot_examples", type=int, default=8, help="Number of few-shot examples to use")
     parser.add_argument("--use_image_question", type=lambda x: x.lower() == 'true', default=True, help="Set True for image-based questions, False for text-based")
     parser.add_argument("--filename", type=str, default="gpt4o_vismin_evaluation_results.csv", help="Output filename")
-    parser.add_argument("--subset_size", type=int, default=1, help="Limit evaluation to a subset of the dataset")
+    parser.add_argument("--subset_size", type=int, default=10, help="Limit evaluation to a subset of the dataset")
     parser.add_argument("--api_key", type=str, required=True, help="OpenAI API key for GPT-4-O access")
 
     args = parser.parse_args()
