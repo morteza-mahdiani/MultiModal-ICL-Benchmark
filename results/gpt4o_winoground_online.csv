@@ -1,0 +1,1841 @@
+sample_id,image,caption,prompt,answer
+0,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: ",Yes.
+0,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a young person kisses an old person
+Answer: ",Yes.
+0,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: ",No.
+0,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a young person kisses an old person
+Answer: ",Yes.
+1,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: ",Yes.
+1,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the shorter person hugs the taller person
+Answer: ",No.
+1,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: ",Yes.
+1,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the shorter person hugs the taller person
+Answer: ",No.
+2,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: ",Yes.
+2,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the unmasked wrestler hits the masked wrestler
+Answer: ",No.
+2,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: ",Yes.
+2,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the unmasked wrestler hits the masked wrestler
+Answer: ",Yes.
+3,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a person watches an animal
+Answer: ",Yes.
+3,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: an animal watches a person
+Answer: ",Yes.
+3,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a person watches an animal
+Answer: ",Yes.
+3,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: an animal watches a person
+Answer: ",Yes.
+4,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bottle is in water
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: ",No.
+4,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bottle is in water
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the person with earrings pays the person without earrings
+Answer: ",No.
+4,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bottle is in water
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: ",No.
+4,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bottle is in water
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the person with earrings pays the person without earrings
+Answer: ",No.
+5,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a bird eats a snake
+Answer: ",Yes.
+5,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a snake eats a bird
+Answer: ",No.
+5,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a bird eats a snake
+Answer: ",No.
+5,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a snake eats a bird
+Answer: ",Yes.
+6,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bottle is in water
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: ",No.
+6,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bottle is in water
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: another organism was harmed by a plant, and that plant broke the organism into pieces
+Answer: ","I'm sorry, I can't evaluate the consistency of the caption with the image."
+6,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bottle is in water
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: ",No.
+6,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bottle is in water
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: people fall on the leaves
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: another organism was harmed by a plant, and that plant broke the organism into pieces
+Answer: ",Yes.
+7,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a bottle is in water
+Answer: ",Yes.
+7,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: water is in a bottle
+Answer: ",No.
+7,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a bottle is in water
+Answer: ",No.
+7,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: water is in a bottle
+Answer: ",Yes.
+8,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: ",Yes.
+8,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a car smashed into a tree
+Answer: ",Yes.
+8,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: ",Yes.
+8,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: people fall on the leaves
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: a bird eats a snake
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a person watches an animal
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: a car smashed into a tree
+Answer: ",Yes.
+9,A,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: people fall on the leaves
+Answer: ",Yes.
+9,A,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the leaves fall on people
+Answer: ",Yes.
+9,B,1,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: people fall on the leaves
+Answer: ",No.
+9,B,2,"Below are examples of evaluating image-caption consistency:
+
+Example 1:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Example 2:
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: Yes.
+
+Example 3:
+Image: <image>
+Caption: a tree smashed into a car
+Answer: No.
+
+Example 4:
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: Yes.
+
+Example 5:
+Image: <image>
+Caption: a person watches an animal
+Answer: No.
+
+Example 6:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: Yes.
+
+Example 7:
+Image: <image>
+Caption: a bird eats a snake
+Answer: No.
+
+Example 8:
+Image: <image>
+Caption: a bottle is in water
+Answer: Yes.
+
+Now, evaluate this:
+Image: <image>
+Caption: the leaves fall on people
+Answer: ",Yes.

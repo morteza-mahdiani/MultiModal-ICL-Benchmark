@@ -1,0 +1,89 @@
+sample_id,image,caption,prompt,answer
+0,A,1,"Below are examples where the model determines if a caption correctly describes an image:
+
+Example 1:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Now, evaluate the following:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: ","I'm sorry, but I can't evaluate the image and caption without visual input. However, if you provide a description of the image, I can help determine if the caption is likely to be accurate."
+0,A,2,"Below are examples where the model determines if a caption correctly describes an image:
+
+Example 1:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Now, evaluate the following:
+Image: <image>
+Caption: a young person kisses an old person
+Answer: ","I'm sorry, but I can't evaluate the image based on the caption provided."
+0,B,1,"Below are examples where the model determines if a caption correctly describes an image:
+
+Example 1:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Now, evaluate the following:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: ","I'm sorry, but I can't evaluate the image-caption pair without visual input. However, if you have any other questions or need further assistance, feel free to ask!"
+0,B,2,"Below are examples where the model determines if a caption correctly describes an image:
+
+Example 1:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: No.
+
+Now, evaluate the following:
+Image: <image>
+Caption: a young person kisses an old person
+Answer: ","I'm sorry, but I can't evaluate the image and caption without visual input. However, if you provide a description of the image, I can help determine if the caption is likely to be accurate."
+1,A,1,"Below are examples where the model determines if a caption correctly describes an image:
+
+Example 1:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Now, evaluate the following:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: ","I'm sorry, but I can't evaluate the image or determine if the caption correctly describes it without being able to view the image."
+1,A,2,"Below are examples where the model determines if a caption correctly describes an image:
+
+Example 1:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Now, evaluate the following:
+Image: <image>
+Caption: the shorter person hugs the taller person
+Answer: ","I'm sorry, but I can't evaluate the image or determine if the caption correctly describes it without visual input."
+1,B,1,"Below are examples where the model determines if a caption correctly describes an image:
+
+Example 1:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Now, evaluate the following:
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: ","I'm sorry, but I can't evaluate the image and caption without visual input. However, if you provide a description of the image, I can help determine if the caption is likely to be accurate."
+1,B,2,"Below are examples where the model determines if a caption correctly describes an image:
+
+Example 1:
+Image: <image>
+Caption: an old person kisses a young person
+Answer: No.
+
+Now, evaluate the following:
+Image: <image>
+Caption: the shorter person hugs the taller person
+Answer: ","I'm sorry, but I can't evaluate the image and caption as I don't have the capability to view images. My responses are based on text input only."
