@@ -188,4 +188,7 @@ huggingface_cache
 *.out
 *.sh
 # *.csv
+data/images/
+data/examples.jsonl
+results/llava*
 
