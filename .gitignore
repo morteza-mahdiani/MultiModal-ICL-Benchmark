@@ -192,3 +192,4 @@ data/images/
 data/examples.jsonl
 results/llava*
 results/gpt4o*
+results/
