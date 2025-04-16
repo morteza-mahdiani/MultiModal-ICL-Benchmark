@@ -1,62 +1,113 @@
-# Checklist
+# In-Context Learning for Fine-Grained Visual Understanding
 
-- [x] Accuracy of Idefics2  
-- [ ] Llava Implementation  
-- [ ] Other Datasets  
-- [ ] Other Models  
-- [ ] GPT API for Candidate Datasets and Candidate Models  
-
-
-
-# Comparison of ICL and Few-Shot Idefics2 on VisMin Benchmark
+A comprehensive benchmark for evaluating multimodal models using in-context learning (ICL) across various vision-language tasks.
 
 ## Overview
-This document provides a comparison between **ICL (In-Context Learning) results** and the **few-shot version of Idefics2** on the VisMin benchmark. The analysis is based on **Text (T), Image (I), and Group (G) scores** for four key categories: **Object, Attribute, Spatial Relation, and Count**.
 
----
+This repository contains evaluation pipelines for testing different multimodal models (GPT-4V, LLaVA, IDEFICS) on various vision-language tasks. The project focuses on few-shot learning capabilities and includes implementations for both Winoground and Vismin benchmark datasets.
 
-## Performance Summary
-### **1. Text Scores (T)**
-- ICL performs **very well in text-based reasoning**, often matching or slightly trailing behind the few-shot version.
-- Few-shot Idefics2 still has a slight edge, but **ICL remains competitive** in object and attribute understanding.
+## Models Supported
 
-### **2. Image Scores (I)**
-- **Few-shot Idefics2 massively outperforms ICL in image-based understanding.**
-- The ICL version struggles with recognizing fine-grained visual changes.
-- The biggest improvement in few-shot learning is seen in **Object (+52 points), Attribute (+57 points), and Count (+15 points)**.
+- **GPT-4V (GPT-4 Vision)**: OpenAI's multimodal model
+- **LLaVA**: Large Language and Vision Assistant
+- **IDEFICS**: Image-aware Decoder Enhanced to Flow In-Context with Support
 
-### **3. Group Scores (G)**
-- **Few-shot learning significantly enhances the model's holistic multimodal reasoning.**
-- ICL **performs poorly** in Spatial Relation and Count categories, while the few-shot model achieves much higher accuracy.
-- The **Group score gap is largest in the Count category**, where the few-shot model has **over a 40-point lead**.
+## Features
 
----
+- Few-shot learning evaluation pipelines
+- Support for multiple multimodal benchmarks:
+  - Winoground
+  - Vismin
+- Cost tracking for API-based models
+- Batch processing capabilities
+- Flexible prompt construction
+- Image processing utilities
 
-## **Detailed Comparison Table**
-| Category     | Text Score (T) - ICL | Text Score (T) - Zero-Shot | Image Score (I) - ICL | Image Score (I) - Zero-Shot | Group Score (G) - ICL | Group Score (G) - Zero-Shot |
-|-------------|----------------------|----------------------------|----------------------|----------------------------|----------------------|----------------------------|
-| **Object**      | 94.65                | 95.4                        | 17.44               | 69.4                        | 17.10               | 67.6                        |
-| **Attribute**   | 89.12                | 89.1                        | 14.29               | 71.4                        | 12.59               | 67.0                        |
-| **S. Relation** | 42.28                | 18.6                        | 13.99               | 18.8                        | 6.59                | 4.8                         |
-| **Count**       | 77.25                | 72.2                        | 35.14               | 50.6                        | 30.73               | 47.0                        |
-| **Overall Avg.**| **37.60**             | **55.99**                    | **-**                | **-**                        | **-**                | **-**                        |
+## Project Structure
 
----
+```
+.
+├── gpt4_fewshot_pipeline.py          # GPT-4V evaluation pipeline
+├── gpt4_fewshot_winoground_pipeline.py  # GPT-4V Winoground-specific pipeline
+├── LlaVa_fewshot_pipeline.py         # LLaVA evaluation pipeline
+├── LlaVa_fewshot_winoground_pipeline.py  # LLaVA Winoground-specific pipeline
+├── idefics_fewshot_pipeline.py       # IDEFICS evaluation pipeline
+├── Winoground_Idefics.py            # IDEFICS Winoground-specific pipeline
+├── gpt_main_pipeline.py             # Main GPT-4V pipeline
+├── evaluate_gpt4o_winoground.py     # Winoground evaluation script
+├── data/                            # Evaluation results
+├── meta/                            # Some useful materials
+```
 
-## **Key Takeaways**
-1. **ICL is strong in text-based reasoning** but struggles with multimodal understanding.
-2. **Few-shot learning significantly improves visual reasoning**, especially in Object, Attribute, and Count categories.
-3. **Spatial Relation remains a challenge for both models**, with **ICL performing slightly better in text understanding**, but still struggling in image-based reasoning.
-4. **Few-shot learning provides a substantial boost to Image and Group scores**, making it far more capable of understanding fine-grained multimodal relationships.
-5. **ICL's improved performance in Count reasoning** (higher than few-shot in Text score) suggests some capability in numerical reasoning, but still lags behind when integrating image understanding.
+## Setup
 
----
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/MultiModal-ICL-Benchmark.git
+cd MultiModal-ICL-Benchmark
+```
 
-## **Conclusion**
-- **ICL is good for text-based tasks but underperforms in visual grounding.**
-- **Few-shot learning is essential for achieving strong multimodal performance.**
-- **Future improvements should focus on enhancing spatial reasoning and count-based understanding** to close the remaining performance gaps.
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
+3. Set up environment variables:
+Create a `.env` file with your API keys:
+```
+OPENAI_API_KEY=your_openai_api_key
+HUGGINGFACE_TOKEN=your_huggingface_token
+```
 
+## Usage
 
+### GPT-4V Evaluation
 
+```bash
+python gpt4_fewshot_pipeline.py --api_key YOUR_API_KEY --batch_size 8 --num_fewshot_examples 8
+```
+
+### LLaVA Evaluation
+
+```bash
+python LlaVa_fewshot_pipeline.py --batch_size 1 --num_fewshot_examples 8
+```
+
+### Winoground Evaluation
+
+```bash
+python evaluate_gpt4o_winoground.py --api_key YOUR_API_KEY
+```
+
+## Parameters
+
+- `batch_size`: Number of samples to process in each batch
+- `num_fewshot_examples`: Number of few-shot examples to use
+- `use_image_question`: Whether to use image-based questions (default: True)
+- `filename`: Output filename for results
+- `subset_size`: Limit evaluation to a subset of the dataset
+- `api_key`: API key for model access
+
+## Results
+
+Evaluation results are saved in CSV format in the `data/` directory. The results include:
+- Sample IDs
+- Categories
+- Model predictions
+- Ground truth labels
+- Performance metrics
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+```bibtex
+@misc{multimodal-icl-benchmark,
+  author = {Alireza Farashah, Morteza Mahdiani},
+  title = {MultiModal-ICL-Benchmark},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/yourusername/MultiModal-ICL-Benchmark}}
+}
+```
