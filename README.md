@@ -1,4 +1,4 @@
-# MultiModal-ICL-Benchmark
+# In-Context Learning for Fine-Grained Visual Understanding
 
 A comprehensive benchmark for evaluating multimodal models using in-context learning (ICL) across various vision-language tasks.
 
