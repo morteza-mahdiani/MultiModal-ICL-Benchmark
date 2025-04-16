@@ -34,6 +34,9 @@ class GPT4OModel:
         encoded = []
         for img in images:
             if isinstance(img, Image.Image):
+                # 🔧 Fix: convert RGBA or other non-RGB images to RGB
+                if img.mode != 'RGB':
+                    img = img.convert('RGB')
                 buf = io.BytesIO()
                 img.save(buf, format="JPEG")
                 img_bytes = base64.b64encode(buf.getvalue()).decode("utf-8")
@@ -89,7 +92,6 @@ def build_few_shot_prompt_and_images(few_shot_examples, eval_sample):
         prompt += f"Example {i}:\nImage: <image>\nCaption: {cap}\nAnswer: {label}\n\n"
         images.append(img)
 
-    eval_prompts = []
     eval_prompts = []
     img_keys = [("image_0", "caption_0"), ("image_0", "caption_1"),
                 ("image_1", "caption_0"), ("image_1", "caption_1")]
@@ -150,6 +152,7 @@ def run_evaluation(
         for k in ["image_0", "image_1"]:
             try:
                 path = example[k]  # save original image path
+                print(path)
                 example[k] = download_image_from_huggingface(path)
             except Exception as e:
                 print(f"❌ Failed to load image at key {k} (path: {path}): {e}")
@@ -159,7 +162,7 @@ def run_evaluation(
         dataset = dataset.select(range(num_samples))
 
     print("🖼️ Downloading and converting images...")
-    dataset = dataset.map(load_image)
+    # dataset = dataset.map(load_image)
     all_samples = list(dataset)
     print(all_samples[0].keys())
     model = GPT4OModel(api_key=api_key)
@@ -206,8 +209,8 @@ def run_evaluation(
 # Run script
 if __name__ == "__main__":
     run_evaluation(
-        fewshot_k=0,
-        output_path="results/gpt4o_winoground_online0shot.csv",
-        num_samples=10,  # DEBUG subset; set to None for full eval
+        fewshot_k=8,
+        output_path="results/gpt4o_winoground_online_8shot_final_RGB.csv",
+        num_samples=None,  # DEBUG subset; set to None for full eval
         api_key=os.getenv("OPENAI_API_KEY")
     )

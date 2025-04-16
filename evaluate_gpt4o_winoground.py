@@ -1,55 +1,99 @@
 import pandas as pd
+from datasets import load_dataset
 
-def evaluate_winoground(results_path):
+
+def normalize_answer(ans):
+    if not isinstance(ans, str) or ans.strip() == "":
+        return None
+    ans = ans.lower().strip()
+    if ans.startswith("yes"):
+        return True
+    if ans.startswith("no"):
+        return False
+    return None
+
+
+def extract_tag_type(row):
+    try:
+        return row["collapsed_tag"]
+    except:
+        return "unknown"
+
+
+def evaluate_winoground(results_path, output_detailed="data/winoground_detailed_8shot.csv",
+                        output_summary="data/winoground_summary_8shot.csv"):
+    # Load model output results
     df = pd.read_csv(results_path)
+    df["normalized"] = df["answer"].apply(normalize_answer)
 
-    # Normalize answers
-    df['answer'] = df['answer'].str.lower().str.strip()
-    df['is_yes'] = df['answer'].str.startswith("yes")
+    # Load original dataset with metadata
+    ds = load_dataset("facebook/winoground", split="test")
+    meta_df = pd.DataFrame(ds)
+    print(meta_df.head(5))
+    meta_df["sample_id"] = meta_df.index
+    meta_df["category"] = meta_df.apply(extract_tag_type, axis=1)
 
-    # Pivot to get all 4 conditions per sample
-    grouped = df.groupby('sample_id')
-
-    total = 0
-    correct = 0
-    detailed_results = []
+    # Evaluate each sample
+    grouped = df.groupby("sample_id")
+    results = []
 
     for sample_id, group in grouped:
         if len(group) != 4:
-            print(f"⚠️ Skipping sample {sample_id} due to incomplete pairs")
             continue
 
-        yes_flags = {
-            (row['image'], row['caption']): row['is_yes']
+        lookup = {
+            (row["image"], str(row["caption"])): row["normalized"]
             for _, row in group.iterrows()
         }
 
-        cond_1 = yes_flags.get(('A', '1'), False)  # image_0 & caption_0 → Yes
-        cond_2 = yes_flags.get(('B', '2'), False)  # image_1 & caption_1 → Yes
-        cond_3 = not yes_flags.get(('A', '2'), True)  # image_0 & caption_1 → No
-        cond_4 = not yes_flags.get(('B', '1'), True)  # image_1 & caption_0 → No
-        print(cond_1, cond_2, cond_3, cond_4)
-        is_correct = all([cond_1, cond_2, cond_3, cond_4])
+        if any(lookup.get(k) is None for k in [('A', '1'), ('A', '2'), ('B', '1'), ('B', '2')]):
+            continue
 
-        detailed_results.append({
+        is_correct = (
+                lookup[('A', '1')] is True and
+                lookup[('B', '2')] is True and
+                lookup[('A', '2')] is False and
+                lookup[('B', '1')] is False
+        )
+
+        image_score = (
+                              (lookup[('A', '1')] is True and lookup[('A', '2')] is False) +
+                              (lookup[('B', '2')] is True and lookup[('B', '1')] is False)
+                      ) / 2
+
+        text_score = (
+                             (lookup[('A', '1')] is True and lookup[('B', '1')] is False) +
+                             (lookup[('B', '2')] is True and lookup[('A', '2')] is False)
+                     ) / 2
+
+        results.append({
             "sample_id": sample_id,
-            "image0_caption0": yes_flags.get(('A', '1'), None),
-            "image0_caption1": yes_flags.get(('A', '2'), None),
-            "image1_caption0": yes_flags.get(('B', '1'), None),
-            "image1_caption1": yes_flags.get(('B', '2'), None),
-            "is_correct": is_correct
+            "is_correct": is_correct,
+            "image_score": image_score,
+            "text_score": text_score
         })
 
-        total += 1
-        correct += int(is_correct)
+    # Combine with metadata
+    results_df = pd.DataFrame(results)
+    merged = pd.merge(results_df, meta_df[["sample_id", "category"]], on="sample_id")
 
-    accuracy = correct / total if total > 0 else 0
+    # Save full results
+    merged.to_csv(output_detailed, index=False)
 
-    print(f"✅ Evaluated {total} samples")
-    print(f"🎯 Accuracy: {accuracy:.3f} ({correct}/{total})")
+    # Aggregate summary by category
+    summary = merged.groupby("category").agg(
+        samples=("sample_id", "count"),
+        accuracy=("is_correct", "mean"),
+        image_score=("image_score", "mean"),
+        text_score=("text_score", "mean")
+    ).round(4).reset_index()
 
-    return pd.DataFrame(detailed_results)
+    summary.to_csv(output_summary, index=False)
+    print("✅ Evaluation complete. Summary:")
+    print(summary)
+    print(f"\n💾 Saved detailed results to: {output_detailed}")
+    print(f"💾 Saved summary to: {output_summary}")
+
 
 if __name__ == "__main__":
-    df_eval = evaluate_winoground("results/gpt4o_winoground_online.csv")
-    df_eval.to_csv("results/gpt4o_winoground_eval_summary.csv", index=False)
+    evaluate_winoground("data/gpt4o_winoground_online_8shot_final_RGB.csv")

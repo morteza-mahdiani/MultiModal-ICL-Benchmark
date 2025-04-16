@@ -1,0 +1,5947 @@
+sample_id,image,caption,prompt,answer
+0,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an old person kisses a young person
+Answer: ",Yes.
+0,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a young person kisses an old person
+Answer: ",No
+0,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an old person kisses a young person
+Answer: ",No
+0,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a young person kisses an old person
+Answer: ",Yes.
+1,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: ",Yes
+1,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the shorter person hugs the taller person
+Answer: ",I'm unable to determine the answer based on the image provided.
+1,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the taller person hugs the shorter person
+Answer: ",Yes
+1,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the shorter person hugs the taller person
+Answer: ",Yes
+2,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: ",No
+2,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the unmasked wrestler hits the masked wrestler
+Answer: ",No.
+2,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the masked wrestler hits the unmasked wrestler
+Answer: ",No.
+2,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the unmasked wrestler hits the masked wrestler
+Answer: ",Yes.
+3,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person watches an animal
+Answer: ",Yes.
+3,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an animal watches a person
+Answer: ",Yes.
+3,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person watches an animal
+Answer: ",Yes.
+3,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an animal watches a person
+Answer: ",Yes.
+4,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: ",Yes.
+4,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with earrings pays the person without earrings
+Answer: ",No.
+4,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person without earrings pays the person with earrings
+Answer: ",Yes.
+4,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with earrings pays the person without earrings
+Answer: ",Yes.
+5,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a bird eats a snake
+Answer: ",Yes.
+5,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a snake eats a bird
+Answer: ",No
+5,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a bird eats a snake
+Answer: ",No.
+5,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a snake eats a bird
+Answer: ",Yes.
+6,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: ",Yes.
+6,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: another organism was harmed by a plant, and that plant broke the organism into pieces
+Answer: ",No.
+6,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a plant was harmed by another organism, and that organism broke the plant into pieces
+Answer: ",No
+6,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: another organism was harmed by a plant, and that plant broke the organism into pieces
+Answer: ",Yes.
+7,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a bottle is in water
+Answer: ",Yes.
+7,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: water is in a bottle
+Answer: ",No
+7,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a bottle is in water
+Answer: ",No
+7,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: water is in a bottle
+Answer: ",Yes
+8,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a tree smashed into a car
+Answer: ",Yes.
+8,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a car smashed into a tree
+Answer: ",Yes.
+8,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a tree smashed into a car
+Answer: ",No.
+8,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a car smashed into a tree
+Answer: ",Yes.
+9,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: people fall on the leaves
+Answer: ",Yes.
+9,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the leaves fall on people
+Answer: ",Yes
+9,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: people fall on the leaves
+Answer: ",No
+9,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the leaves fall on people
+Answer: ",Yes.
+10,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the sail rests below the water
+Answer: ",Yes.
+10,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the water rests below the sail
+Answer: ",No
+10,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the sail rests below the water
+Answer: ",No.
+10,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the water rests below the sail
+Answer: ",Yes.
+11,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a table below someone
+Answer: ",Yes.
+11,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is someone below a table
+Answer: ",No.
+11,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a table below someone
+Answer: ",Yes.
+11,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is someone below a table
+Answer: ",Yes.
+12,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the image shows a computer on top of books
+Answer: ",Yes.
+12,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the image shows books on top of a computer
+Answer: ",No.
+12,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the image shows a computer on top of books
+Answer: ",No
+12,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the image shows books on top of a computer
+Answer: ",Yes
+13,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a caterpillar with some plants
+Answer: ",Yes.
+13,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a plant with some caterpillars
+Answer: ",Yes.
+13,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a caterpillar with some plants
+Answer: ",Yes
+13,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a plant with some caterpillars
+Answer: ",Yes.
+14,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a mug in some grass
+Answer: ",Yes.
+14,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is some grass in a mug
+Answer: ",No.
+14,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a mug in some grass
+Answer: ",No
+14,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is some grass in a mug
+Answer: ",Yes.
+15,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more skiers than snowboarders
+Answer: ",Yes.
+15,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more snowboarders than skiers
+Answer: ",No.
+15,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more skiers than snowboarders
+Answer: ",No.
+15,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more snowboarders than skiers
+Answer: ",Yes.
+16,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are fewer forks than spoons
+Answer: ",Yes.
+16,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are fewer spoons than forks
+Answer: ",Yes.
+16,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are fewer forks than spoons
+Answer: ",No.
+16,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are fewer spoons than forks
+Answer: ",Yes.
+17,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more ladybugs than flowers
+Answer: ",Yes.
+17,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more flowers than ladybugs
+Answer: ",No
+17,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more ladybugs than flowers
+Answer: ",No.
+17,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more flowers than ladybugs
+Answer: ",Yes.
+18,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is less orange juice than milk
+Answer: ",Yes.
+18,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is less milk than orange juice
+Answer: ",I'm unable to determine the quantities of milk and orange juice from the image.
+18,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is less orange juice than milk
+Answer: ",No.
+18,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is less milk than orange juice
+Answer: ",Yes.
+19,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more dirt than empty space in the jar
+Answer: ",Yes.
+19,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more empty space than dirt in the jar
+Answer: ",No
+19,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more dirt than empty space in the jar
+Answer: ",No.
+19,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more empty space than dirt in the jar
+Answer: ",Yes.
+20,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a bit less milk chocolate than white chocolate
+Answer: ",Yes.
+20,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a bit less white chocolate than milk chocolate
+Answer: ",No.
+20,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a bit less milk chocolate than white chocolate
+Answer: ",Yes.
+20,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a bit less white chocolate than milk chocolate
+Answer: ",Yes.
+21,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person sits and a dog stands
+Answer: ",Yes
+21,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person stands and a dog sits
+Answer: ",No
+21,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person sits and a dog stands
+Answer: ",No.
+21,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person stands and a dog sits
+Answer: ",Yes.
+22,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The person with more facial hair lies awake while the other sleeps
+Answer: ",Yes.
+22,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The person with more facial hair sleeps while the other lies awake
+Answer: ",Yes.
+22,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The person with more facial hair lies awake while the other sleeps
+Answer: ",No.
+22,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The person with more facial hair sleeps while the other lies awake
+Answer: ",Yes.
+23,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in the middle is floating and some others are standing
+Answer: ",Yes.
+23,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in the middle is standing and some others are floating
+Answer: ",No.
+23,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in the middle is floating and some others are standing
+Answer: ",No.
+23,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in the middle is standing and some others are floating
+Answer: ",Yes.
+24,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person closer to the camera weightlifts and the person farther from the camera runs
+Answer: ",Yes.
+24,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person closer to the camera runs and the person farther from the camera weightlifts
+Answer: ",No.
+24,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person closer to the camera weightlifts and the person farther from the camera runs
+Answer: ",No.
+24,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person closer to the camera runs and the person farther from the camera weightlifts
+Answer: ",Yes.
+25,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the white collared shirt waters the plant while the other holds it
+Answer: ",Yes.
+25,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the white collared shirt holds the plant while the other waters it
+Answer: ",Yes.
+25,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the white collared shirt waters the plant while the other holds it
+Answer: ",Yes.
+25,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the white collared shirt holds the plant while the other waters it
+Answer: ",Yes
+26,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the taller person chops food and the shorter person eats food
+Answer: ",Yes
+26,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the taller person eats food and the shorter person chops food
+Answer: ",No
+26,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the taller person chops food and the shorter person eats food
+Answer: ",No.
+26,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the taller person eats food and the shorter person chops food
+Answer: ",Yes.
+27,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the ponytail packs stuff and other buys it
+Answer: ",Yes.
+27,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the ponytail buys stuff and other packs it
+Answer: ","I'm sorry, I can't determine the answer based on the image alone."
+27,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the ponytail packs stuff and other buys it
+Answer: ",No
+27,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the ponytail buys stuff and other packs it
+Answer: ",Yes.
+28,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person walking in a field of yellow flowers with a red dress
+Answer: ",Yes
+28,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person walking in a field of red flowers with a yellow dress
+Answer: ",No
+28,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person walking in a field of yellow flowers with a red dress
+Answer: ",No
+28,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person walking in a field of red flowers with a yellow dress
+Answer: ",Yes.
+29,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a brown dog is on a white couch
+Answer: ",Yes
+29,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a white dog is on a brown couch
+Answer: ",No
+29,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a brown dog is on a white couch
+Answer: ",No
+29,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a white dog is on a brown couch
+Answer: ",Yes.
+30,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a blue bird is next to a red berry
+Answer: ",Yes.
+30,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a red bird is next to a blue berry
+Answer: ",No.
+30,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a blue bird is next to a red berry
+Answer: ",No.
+30,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a red bird is next to a blue berry
+Answer: ",Yes.
+33,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the square table has a round base
+Answer: ",Yes.
+33,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the round table has a square base
+Answer: ",No
+33,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the square table has a round base
+Answer: ",No
+33,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the round table has a square base
+Answer: ",Yes.
+34,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: pointy bushes are behind rectangular bushes
+Answer: ",Yes.
+34,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: rectangular bushes are behind pointy bushes
+Answer: ",No.
+34,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: pointy bushes are behind rectangular bushes
+Answer: ",No
+34,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: rectangular bushes are behind pointy bushes
+Answer: ",Yes.
+35,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a circular sign is above a rectangular sign
+Answer: ",Yes.
+35,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a rectangular sign is above a circular sign
+Answer: ",Yes.
+35,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a circular sign is above a rectangular sign
+Answer: ",No
+35,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a rectangular sign is above a circular sign
+Answer: ",No
+36,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a wood chess piece rests on metal objects
+Answer: ",Yes.
+36,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a metal chess piece rests on wood objects
+Answer: ",No.
+36,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a wood chess piece rests on metal objects
+Answer: ",No
+36,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a metal chess piece rests on wood objects
+Answer: ",Yes
+37,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: soft shoes are on a smooth floor
+Answer: ",Yes.
+37,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: smooth shoes are on a soft floor
+Answer: ",Yes.
+37,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: soft shoes are on a smooth floor
+Answer: ",No
+37,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: smooth shoes are on a soft floor
+Answer: ",Yes
+38,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the happy person is on the right and the sad person is on the left
+Answer: ",Yes.
+38,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the sad person is on the right and the happy person is on the left
+Answer: ",No.
+38,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the happy person is on the right and the sad person is on the left
+Answer: ",No
+38,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the sad person is on the right and the happy person is on the left
+Answer: ",Yes.
+39,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the hurt person is on the left and the helpful person is on the right
+Answer: ",Yes.
+39,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the helpful person is on the left and the hurt person is on the right
+Answer: ",No
+39,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the hurt person is on the left and the helpful person is on the right
+Answer: ",Yes.
+39,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the helpful person is on the left and the hurt person is on the right
+Answer: ",Yes.
+40,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the more content person has the healthier food and the less content person has the less healthy food
+Answer: ",Yes.
+40,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the less content person has the healthier food and the more content person has the less healthy food
+Answer: ",Yes.
+40,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the more content person has the healthier food and the less content person has the less healthy food
+Answer: ",No
+40,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the less content person has the healthier food and the more content person has the less healthy food
+Answer: ",Yes.
+41,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the orange lollipop is sad and the red lollipop is surprised
+Answer: ",Yes.
+41,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the orange lollipop is surprised and the red lollipop is sad
+Answer: ",No
+41,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the orange lollipop is sad and the red lollipop is surprised
+Answer: ",No.
+41,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the orange lollipop is surprised and the red lollipop is sad
+Answer: ",Yes.
+42,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the larger person wears yellow and the smaller person does not
+Answer: ",Yes.
+42,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the smaller person wears yellow and the larger person does not
+Answer: ",No.
+42,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the larger person wears yellow and the smaller person does not
+Answer: ",Yes.
+42,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the smaller person wears yellow and the larger person does not
+Answer: ",Yes.
+43,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a big cat is next to a small dog
+Answer: ",Yes.
+43,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a small cat is next to a big dog
+Answer: ",No.
+43,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a big cat is next to a small dog
+Answer: ",No.
+43,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a small cat is next to a big dog
+Answer: ",Yes
+44,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the heavy oncoming traffic is contrasted with the light outgoing traffic
+Answer: ",Yes.
+44,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the light oncoming traffic is contrasted with the heavy outgoing traffic
+Answer: ",Yes.
+44,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the heavy oncoming traffic is contrasted with the light outgoing traffic
+Answer: ",Yes.
+44,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the light oncoming traffic is contrasted with the heavy outgoing traffic
+Answer: ",Yes.
+45,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cold drink on a hot day
+Answer: ",Yes.
+45,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a hot drink on a cold day
+Answer: ",No.
+45,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cold drink on a hot day
+Answer: ",No
+45,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a hot drink on a cold day
+Answer: ",Yes
+46,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is drinking now and eating later
+Answer: ",Yes.
+46,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is drinking later and eating now
+Answer: ",No.
+46,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is drinking now and eating later
+Answer: ",Yes.
+46,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is drinking later and eating now
+Answer: ",No
+47,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the sailboat sails close but the beach is far away
+Answer: ",Yes.
+47,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the sailboat sails far away but the beach is close
+Answer: ",Yes.
+47,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the sailboat sails close but the beach is far away
+Answer: ",No
+47,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the sailboat sails far away but the beach is close
+Answer: ",Yes.
+48,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the passenger is riding inattentive to the road and the driver is driving attentive to the road
+Answer: ",Yes
+48,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the passenger is riding attentive to the road and the driver is driving inattentive to the road
+Answer: ",No.
+48,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the passenger is riding inattentive to the road and the driver is driving attentive to the road
+Answer: ",No
+48,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the passenger is riding attentive to the road and the driver is driving inattentive to the road
+Answer: ",Yes.
+49,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it wears a hat but the person doesn't
+Answer: ",Yes.
+49,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person wears a hat but it doesn't
+Answer: ",No
+49,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it wears a hat but the person doesn't
+Answer: ",No
+49,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person wears a hat but it doesn't
+Answer: ",Yes.
+50,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with green legs is running quite slowly and the red legged one runs faster
+Answer: ",Yes.
+50,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with green legs is running faster and the red legged one runs quite slowly
+Answer: ",No.
+50,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with green legs is running quite slowly and the red legged one runs faster
+Answer: ",No.
+50,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with green legs is running faster and the red legged one runs quite slowly
+Answer: ",Yes.
+51,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is in the water and close to the sand
+Answer: ",Yes.
+51,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is close to the water and in the sand
+Answer: ",No
+51,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is in the water and close to the sand
+Answer: ",No.
+51,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is close to the water and in the sand
+Answer: ",Yes.
+52,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a frog is above rocks which are under the water
+Answer: ",Yes.
+52,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a frog is under rocks which are above the water
+Answer: ",No.
+52,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a frog is above rocks which are under the water
+Answer: ",Yes.
+52,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a frog is under rocks which are above the water
+Answer: ",Yes.
+53,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: driving off the road and on the unpaved terrain
+Answer: ",Yes.
+53,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: driving on the road and off the unpaved terrain
+Answer: ",Yes.
+53,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: driving off the road and on the unpaved terrain
+Answer: ",No
+53,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: driving on the road and off the unpaved terrain
+Answer: ",No.
+54,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is in a helicopter with a car
+Answer: ",No.
+54,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is with a helicopter in a car
+Answer: ",No.
+54,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is in a helicopter with a car
+Answer: ",No.
+54,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is with a helicopter in a car
+Answer: ",Yes.
+55,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the green one can fit inside the blue one and the blue one can fit outside the green one
+Answer: ",I'm unable to determine the answer based on the image provided.
+55,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the green one can fit outside the blue one and the blue one can fit inside the green one
+Answer: ","I'm sorry, I can't determine the answer based on the image provided."
+56,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: jumping away from the photographer and towards the others
+Answer: ",Yes.
+56,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: jumping towards the photographer and away from the others
+Answer: ",Yes.
+56,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: jumping away from the photographer and towards the others
+Answer: ",Yes.
+56,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: jumping towards the photographer and away from the others
+Answer: ",Yes.
+57,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone bakes the dough before the dough is eaten
+Answer: ",Yes.
+57,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dough is eaten before someone bakes the dough
+Answer: ",No
+57,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone bakes the dough before the dough is eaten
+Answer: ",No
+57,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dough is eaten before someone bakes the dough
+Answer: ",Yes.
+58,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it hatched before it was eaten
+Answer: ","I'm sorry, I can't determine the answer from the image alone."
+58,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it was eaten before it hatched
+Answer: ",I'm not sure based on the image.
+58,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it hatched before it was eaten
+Answer: ",No.
+58,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it was eaten before it hatched
+Answer: ",Yes.
+59,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are three bananas and two apples
+Answer: ",No
+59,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are two bananas and three apples
+Answer: ",No
+59,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are three bananas and two apples
+Answer: ",No.
+59,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are two bananas and three apples
+Answer: ",Yes.
+60,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone has loaded their plate with one of the toast slices and two of the eggs
+Answer: ",Yes.
+60,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone has loaded their plate with two of the toast slices and one of the eggs
+Answer: ",No.
+60,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone has loaded their plate with one of the toast slices and two of the eggs
+Answer: ",No
+60,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone has loaded their plate with two of the toast slices and one of the eggs
+Answer: ",Yes.
+61,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are three people and two windows
+Answer: ",Yes.
+61,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are two people and three windows
+Answer: ",No.
+61,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are three people and two windows
+Answer: ",Yes
+61,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are two people and three windows
+Answer: ",Yes.
+63,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: no people wear blue shirts and six people wear white shirts
+Answer: ",Yes
+63,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: six people wear blue shirts and no people wear white shirts
+Answer: ",No
+63,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: no people wear blue shirts and six people wear white shirts
+Answer: ",No
+63,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: six people wear blue shirts and no people wear white shirts
+Answer: ",Yes.
+64,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog's leg is on the person's torso
+Answer: ",Yes.
+64,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person's leg is on the dog's torso
+Answer: ",No.
+64,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog's leg is on the person's torso
+Answer: ",Yes.
+64,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person's leg is on the dog's torso
+Answer: ",Yes.
+65,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the animal's eyes are bigger than the person's
+Answer: ",Yes.
+65,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person's eyes are bigger than the animal's
+Answer: ",No.
+65,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the animal's eyes are bigger than the person's
+Answer: ",No
+65,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person's eyes are bigger than the animal's
+Answer: ",Yes.
+66,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the taller person's arm is around the shorter person's shoulder
+Answer: ",Yes.
+66,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the shorter person's arm is around the taller person's shoulder
+Answer: ",Yes.
+66,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the taller person's arm is around the shorter person's shoulder
+Answer: ",Yes.
+66,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the shorter person's arm is around the taller person's shoulder
+Answer: ",Yes.
+67,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in a brown coat looks back and the person in a black coat looks forward
+Answer: ",Yes.
+67,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in a black coat looks back and the person in a brown coat looks forward
+Answer: ",Yes.
+67,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in a brown coat looks back and the person in a black coat looks forward
+Answer: ",No.
+67,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in a black coat looks back and the person in a brown coat looks forward
+Answer: ",Yes.
+68,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it ran away while they pursued
+Answer: ",Yes.
+68,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they ran away while it pursued
+Answer: ",No
+68,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it ran away while they pursued
+Answer: ",Yes.
+68,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they ran away while it pursued
+Answer: ",Yes.
+69,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: almost everyone is in a boat and one is swimming
+Answer: ",Yes.
+69,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: one is in a boat and almost everyone is swimming
+Answer: ",No.
+69,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: almost everyone is in a boat and one is swimming
+Answer: ",No.
+69,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: one is in a boat and almost everyone is swimming
+Answer: ",Yes
+70,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the lighter shoes is holding an emoji and the person with the darker shoes isn't
+Answer: ",No.
+70,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the darker shoes is holding an emoji and the person with the lighter shoes isn't
+Answer: ",No.
+70,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the lighter shoes is holding an emoji and the person with the darker shoes isn't
+Answer: ",Yes.
+70,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the darker shoes is holding an emoji and the person with the lighter shoes isn't
+Answer: ",Yes.
+71,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person wearing neutral colors poses and the person wearing brighter colors takes a picture
+Answer: ",Yes.
+71,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person wearing brighter colors poses and the person wearing neutral colors takes a picture
+Answer: ",No.
+71,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person wearing neutral colors poses and the person wearing brighter colors takes a picture
+Answer: ",No.
+71,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person wearing brighter colors poses and the person wearing neutral colors takes a picture
+Answer: ",Yes.
+72,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it's a fire truck
+Answer: ",Yes.
+72,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it's a truck fire
+Answer: ",No
+72,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it's a fire truck
+Answer: ",No.
+72,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it's a truck fire
+Answer: ",Yes.
+73,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: watching the present
+Answer: ",Yes.
+73,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: presenting the watch
+Answer: ",I'm unable to determine if the image is presenting a watch.
+73,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: watching the present
+Answer: ",I'm not sure.
+73,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: presenting the watch
+Answer: ","I'm sorry, I can't provide a yes or no answer based on the image provided."
+74,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: walking out on a rock
+Answer: ",Yes.
+74,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: rocking out on a walk
+Answer: ",Yes.
+74,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: walking out on a rock
+Answer: ",No.
+74,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: rocking out on a walk
+Answer: ",Yes.
+75,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the kid with the magnifying glass looks at them
+Answer: ",Yes.
+75,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the kid looks at them with the magnifying glass
+Answer: ",No.
+75,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the kid with the magnifying glass looks at them
+Answer: ",Yes.
+75,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the kid looks at them with the magnifying glass
+Answer: ",Yes.
+76,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the kids is sitting
+Answer: ",Yes.
+76,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is sitting with the kids
+Answer: ",Yes.
+76,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the kids is sitting
+Answer: ",Yes
+76,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is sitting with the kids
+Answer: ",Yes.
+77,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the people with shoes are touching each other
+Answer: ",Yes.
+77,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the people are touching each other with shoes
+Answer: ",No
+77,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the people with shoes are touching each other
+Answer: ",No
+77,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the people are touching each other with shoes
+Answer: ",Yes.
+78,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone with an apple is hurt by a tree
+Answer: ",Yes.
+78,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is hurt by a tree with an apple
+Answer: ",Yes.
+79,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person that is on the table is eating the food
+Answer: ",Yes.
+79,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is eating the food that is on the table
+Answer: ",Yes.
+79,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person that is on the table is eating the food
+Answer: ",No
+79,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is eating the food that is on the table
+Answer: ",No.
+80,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the watering can is larger than the pot
+Answer: ",Yes.
+80,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the pot is larger than the watering can
+Answer: ",No
+80,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the watering can is larger than the pot
+Answer: ",No.
+80,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the pot is larger than the watering can
+Answer: ",Yes.
+81,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they hold a suitcase handle with their left hand and they hold a passport with their right hand
+Answer: ",Yes.
+81,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they hold a passport with their left hand and they hold a suitcase handle with their right hand
+Answer: ",Yes.
+81,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they hold a suitcase handle with their left hand and they hold a passport with their right hand
+Answer: ",Yes.
+81,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they hold a passport with their left hand and they hold a suitcase handle with their right hand
+Answer: ",Yes
+82,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the patterned shirt is curly-haired and the other is straight-haired
+Answer: ",Yes.
+82,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the patterned shirt is straight-haired and the other is curly-haired
+Answer: ",No.
+82,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the patterned shirt is curly-haired and the other is straight-haired
+Answer: ",No.
+82,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with the patterned shirt is straight-haired and the other is curly-haired
+Answer: ",Yes.
+83,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a diagram showing movement from right to left
+Answer: ",Yes.
+83,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a diagram showing movement from left to right
+Answer: ",Yes.
+83,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a diagram showing movement from right to left
+Answer: ",Yes.
+83,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a diagram showing movement from left to right
+Answer: ",Yes.
+84,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the flip flops are too big for these feet
+Answer: ",Yes.
+84,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the feet are too big for these flip flops
+Answer: ",No.
+84,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the flip flops are too big for these feet
+Answer: ",Yes.
+84,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the feet are too big for these flip flops
+Answer: ",Yes.
+85,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person who is wearing a crown is kissing a frog
+Answer: ",Yes.
+85,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is kissing a frog who is wearing a crown
+Answer: ",I'm unable to determine if the frog is wearing a crown.
+85,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person who is wearing a crown is kissing a frog
+Answer: ",No.
+85,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is kissing a frog who is wearing a crown
+Answer: ",Yes.
+86,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a dog sitting on a couch with a person lying on the floor
+Answer: ",Yes.
+86,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person lying on a couch with a dog sitting on the floor
+Answer: ",No
+86,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a dog sitting on a couch with a person lying on the floor
+Answer: ",No.
+86,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person lying on a couch with a dog sitting on the floor
+Answer: ",No
+87,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The uncaged bird has an opened cage door
+Answer: ",Yes.
+87,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The caged bird has an unopened cage door
+Answer: ",No.
+87,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The uncaged bird has an opened cage door
+Answer: ",No.
+87,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The caged bird has an unopened cage door
+Answer: ",No
+88,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: meat with potatoes
+Answer: ",Yes.
+88,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: potatoes with meat
+Answer: ",Yes.
+88,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: meat with potatoes
+Answer: ",Yes.
+88,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: potatoes with meat
+Answer: ",Yes.
+89,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in pink was close to not winning
+Answer: ",No.
+89,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person in pink was not close to winning
+Answer: ",No
+90,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two humans and one wheel
+Answer: ",Yes.
+90,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two wheels and one human
+Answer: ",No.
+90,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two humans and one wheel
+Answer: ",No
+90,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two wheels and one human
+Answer: ",Yes
+91,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: clothing on lines
+Answer: ",Yes
+91,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: lines on clothing
+Answer: ",Yes.
+91,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: clothing on lines
+Answer: ",No.
+91,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: lines on clothing
+Answer: ",Yes.
+92,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone talks on the phone angrily while another person sits happily
+Answer: ",Yes.
+92,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone talks on the phone happily while another person sits angrily
+Answer: ",I'm unable to determine the emotions of people in images.
+92,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone talks on the phone angrily while another person sits happily
+Answer: ",No
+92,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone talks on the phone happily while another person sits angrily
+Answer: ",Yes.
+93,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two boats and one direction down the stream
+Answer: ",Yes.
+93,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: one boat and two directions down the stream
+Answer: ",No.
+93,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two boats and one direction down the stream
+Answer: ",No.
+93,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: one boat and two directions down the stream
+Answer: ",Yes.
+94,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The dog rides without a visible tongue
+Answer: ",Yes.
+94,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The dog rides with a visible tongue out
+Answer: ",No.
+94,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The dog rides without a visible tongue
+Answer: ",No
+94,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The dog rides with a visible tongue out
+Answer: ",Yes.
+95,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: handing a hammer
+Answer: ",Yes.
+95,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: hammering a hand
+Answer: ",No
+95,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: handing a hammer
+Answer: ",No
+95,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: hammering a hand
+Answer: ",No
+96,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: leaves its shedding
+Answer: ",No.
+96,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: shedding its leaves
+Answer: ",No.
+96,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: leaves its shedding
+Answer: ",Yes
+96,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: shedding its leaves
+Answer: ",Yes.
+97,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they are using no bait but still got fish
+Answer: ",Yes.
+97,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they are using bait but still got no fish
+Answer: ",No
+97,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they are using no bait but still got fish
+Answer: ",No
+97,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they are using bait but still got no fish
+Answer: ","I'm sorry, I can't determine the answer from the image alone."
+98,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone on the ground is spraying water towards a vehicle
+Answer: ",Yes.
+98,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is on a vehicle spraying water towards the ground
+Answer: ",No
+98,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone on the ground is spraying water towards a vehicle
+Answer: ",Yes.
+98,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is on a vehicle spraying water towards the ground
+Answer: ",Yes.
+99,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog wears as a hat what someone would normally bite
+Answer: ",Yes.
+99,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog bites what someone would normally wear as a hat
+Answer: ",No.
+99,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog wears as a hat what someone would normally bite
+Answer: ",No.
+99,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog bites what someone would normally wear as a hat
+Answer: ",Yes.
+100,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the happy one is on the left and the upset one is on the right
+Answer: ",Yes.
+100,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the upset one is on the left and the happy one is on the right
+Answer: ",No
+100,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the happy one is on the left and the upset one is on the right
+Answer: ",Yes
+100,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the upset one is on the left and the happy one is on the right
+Answer: ",Yes.
+101,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fake mustache and real hair on head
+Answer: ",No
+101,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: real mustache and fake hair on head
+Answer: ",No
+101,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fake mustache and real hair on head
+Answer: ","I'm sorry, I can't determine the answer based on the image."
+101,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: real mustache and fake hair on head
+Answer: ",Yes.
+102,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: real cat with toy baby
+Answer: ",Yes.
+102,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: toy cat with real baby
+Answer: ",No.
+102,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: real cat with toy baby
+Answer: ",No
+102,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: toy cat with real baby
+Answer: ",Yes.
+103,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the lion is loud and the lionness is quiet
+Answer: ",Yes.
+103,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the lion is quiet and the lionness is loud
+Answer: ",No
+103,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the lion is loud and the lionness is quiet
+Answer: ",I'm unable to determine the sound from the image.
+103,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the lion is quiet and the lionness is loud
+Answer: ",Yes.
+104,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a pink couch with green pillows
+Answer: ",Yes
+104,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a green couch with pink pillows
+Answer: ",No
+104,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a pink couch with green pillows
+Answer: ",No
+104,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a green couch with pink pillows
+Answer: ",Yes
+105,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: light colored dog with dark colored cat
+Answer: ",Yes
+105,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: dark colored dog with light colored cat
+Answer: ",No
+105,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: light colored dog with dark colored cat
+Answer: ",Yes
+105,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: dark colored dog with light colored cat
+Answer: ",Yes.
+106,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is wearing a black hat and yellow shirt
+Answer: ",Yes.
+106,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is wearing a yellow hat and black shirt
+Answer: ",No
+106,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is wearing a black hat and yellow shirt
+Answer: ",No
+106,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: someone is wearing a yellow hat and black shirt
+Answer: ",Yes.
+107,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: black socks and orange shoes
+Answer: ",Yes
+107,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: orange socks and black shoes
+Answer: ",No
+108,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: red building with white shutters
+Answer: ",Yes
+108,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: white building with red shutters
+Answer: ",No
+108,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: red building with white shutters
+Answer: ",No
+108,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: white building with red shutters
+Answer: ",Yes.
+109,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: blue pants and green top
+Answer: ",Yes
+109,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: green pants and blue top
+Answer: ",No
+109,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: blue pants and green top
+Answer: ",No
+109,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: green pants and blue top
+Answer: ",Yes.
+110,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's one blue and many yellow balls
+Answer: ",Yes
+110,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's one yellow and many blue balls
+Answer: ",No
+110,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's one blue and many yellow balls
+Answer: ",No
+110,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's one yellow and many blue balls
+Answer: ",Yes.
+111,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more silver coins than gold coins
+Answer: ",Yes.
+111,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more gold coins than silver coins
+Answer: ",No.
+111,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more silver coins than gold coins
+Answer: ",No.
+111,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more gold coins than silver coins
+Answer: ",Yes.
+112,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the red team kicking the ball directly next to the blue team
+Answer: ",Yes.
+112,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the blue team kicking the ball directly next to the red team
+Answer: ",Yes
+112,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the red team kicking the ball directly next to the blue team
+Answer: ",Yes.
+112,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the blue team kicking the ball directly next to the red team
+Answer: ",Yes.
+113,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: black dog wearing a brown sweater
+Answer: ",Yes.
+113,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: brown dog wearing a black sweater
+Answer: ",No
+113,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: black dog wearing a brown sweater
+Answer: ",No
+113,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: brown dog wearing a black sweater
+Answer: ",Yes.
+114,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: one green apple surrounded by a bunch of red apples
+Answer: ",Yes
+114,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: one red apple surrounded by a bunch of green apples
+Answer: ",No
+114,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: one green apple surrounded by a bunch of red apples
+Answer: ",No
+114,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: one red apple surrounded by a bunch of green apples
+Answer: ",Yes.
+115,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: person in white is reading the orange book
+Answer: ",Yes.
+115,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: person in orange is reading the white book
+Answer: ",No
+115,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: person in white is reading the orange book
+Answer: ",No
+115,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: person in orange is reading the white book
+Answer: ",Yes
+116,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the children are being quiet while the adult is loud
+Answer: ",Yes.
+116,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the children are being loud while the adult is quiet
+Answer: ",No.
+116,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the children are being quiet while the adult is loud
+Answer: ",No.
+116,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the children are being loud while the adult is quiet
+Answer: ",Yes.
+117,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the circular mirror is on the left and the rectangular mirror is on the right
+Answer: ",Yes.
+117,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the rectangular mirror is on the left and the circular mirror is on the right
+Answer: ",Yes.
+117,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the circular mirror is on the left and the rectangular mirror is on the right
+Answer: ",Yes.
+117,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the rectangular mirror is on the left and the circular mirror is on the right
+Answer: ",Yes.
+118,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: circular food on heart-shaped wood
+Answer: ",Yes
+118,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: heart-shaped food on circular wood
+Answer: ",No
+118,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: circular food on heart-shaped wood
+Answer: ",No
+118,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: heart-shaped food on circular wood
+Answer: ",Yes.
+119,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dress on the left is long and the dress on the right is short
+Answer: ",Yes.
+119,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dress on the left is short and the dress on the right is long
+Answer: ",No.
+119,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dress on the left is long and the dress on the right is short
+Answer: ",I'm unable to provide a yes or no answer based on the image.
+119,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dress on the left is short and the dress on the right is long
+Answer: ",Yes.
+120,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the balloon in the middle has less air and the other balloons have more air
+Answer: ",Yes.
+120,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the balloon in the middle has more air and the other balloons have less air
+Answer: ",No.
+120,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the balloon in the middle has less air and the other balloons have more air
+Answer: ",No.
+120,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the balloon in the middle has more air and the other balloons have less air
+Answer: ",Yes.
+121,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the pool has no people and the area around it has a lot of people
+Answer: ",Yes.
+121,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the pool has a lot of people and the area around it has no people
+Answer: ",No
+121,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the pool has no people and the area around it has a lot of people
+Answer: ",No
+121,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the pool has a lot of people and the area around it has no people
+Answer: ",Yes.
+122,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: big fish beside a small person
+Answer: ",Yes.
+122,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: small fish beside a big person
+Answer: ",No
+122,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: big fish beside a small person
+Answer: ",No.
+122,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: small fish beside a big person
+Answer: ",Yes
+123,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the train is moving fast while the person is still
+Answer: ",Yes
+123,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the train is still while the person is moving fast
+Answer: ",No
+123,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the train is moving fast while the person is still
+Answer: ",No.
+123,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the train is still while the person is moving fast
+Answer: ",Yes.
+124,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they're enjoying hot water on a cold day
+Answer: ",Yes.
+124,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they're enjoying cold water on a hot day
+Answer: ",No
+124,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they're enjoying hot water on a cold day
+Answer: ",No.
+124,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they're enjoying cold water on a hot day
+Answer: ",Yes.
+125,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: concrete floors with wood walls
+Answer: ",No.
+125,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: wood floors with concrete walls
+Answer: ",No.
+125,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: concrete floors with wood walls
+Answer: ",No.
+125,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: wood floors with concrete walls
+Answer: ",Yes
+126,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left has curly hair and the person on the right has straight hair
+Answer: ",Yes.
+126,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left has straight hair and the person on the right has curly hair
+Answer: ",No.
+126,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left has curly hair and the person on the right has straight hair
+Answer: ",Yes.
+126,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left has straight hair and the person on the right has curly hair
+Answer: ",Yes.
+127,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a metal bottle with a plastic lid
+Answer: ",Yes.
+127,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a plastic bottle with a metal lid
+Answer: ",No.
+127,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a metal bottle with a plastic lid
+Answer: ",No.
+127,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a plastic bottle with a metal lid
+Answer: ",Yes.
+128,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the fruit is heavy while the junk food is light
+Answer: ",No
+128,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the fruit is light while the junk food is heavy
+Answer: ",No.
+128,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the fruit is heavy while the junk food is light
+Answer: ",No.
+128,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the fruit is light while the junk food is heavy
+Answer: ",No
+129,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the car is sitting upside down while the person is standing rightside up
+Answer: ",Yes
+129,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the car is sitting rightside up while the person is standing upside down
+Answer: ",No.
+129,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the car is sitting upside down while the person is standing rightside up
+Answer: ",No
+129,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the car is sitting rightside up while the person is standing upside down
+Answer: ",Yes.
+130,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the cup on the left is filled first and the cup on the right is filled second
+Answer: ",Yes.
+130,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the cup on the left is filled second and the cup on the right is filled first
+Answer: ",Yes
+130,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the cup on the left is filled first and the cup on the right is filled second
+Answer: ",Yes.
+130,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the cup on the left is filled second and the cup on the right is filled first
+Answer: ","I'm sorry, I can't determine the sequence of events from the image."
+131,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: milk cow
+Answer: ",Yes
+131,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: cow milk
+Answer: ",Yes.
+131,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: milk cow
+Answer: ",Yes.
+131,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: cow milk
+Answer: ",Yes
+132,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a clock wall
+Answer: ",Yes
+132,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a wall clock
+Answer: ",Yes.
+132,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a clock wall
+Answer: ",Yes
+132,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a wall clock
+Answer: ",Yes.
+133,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a split banana
+Answer: ",Yes.
+133,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a banana split
+Answer: ",No.
+133,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a split banana
+Answer: ",Yes.
+133,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is a banana split
+Answer: ",Yes.
+134,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are two people and a bunch of horses
+Answer: ",Yes.
+134,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are a bunch of people and two horses
+Answer: ",No.
+134,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are two people and a bunch of horses
+Answer: ",No
+134,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are a bunch of people and two horses
+Answer: ",Yes.
+135,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: three white and two brown eggs
+Answer: ",No.
+135,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two white and three brown eggs
+Answer: ",No
+135,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: three white and two brown eggs
+Answer: ",No.
+135,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two white and three brown eggs
+Answer: ",No
+136,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the plastic is in the fish
+Answer: ",No.
+136,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the fish is in the plastic
+Answer: ",No
+136,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the plastic is in the fish
+Answer: ",No.
+136,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the fish is in the plastic
+Answer: ",Yes.
+137,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog's paw is on the cat's face
+Answer: ",Yes.
+137,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the cat's paw is on the dog's face
+Answer: ",Yes.
+137,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog's paw is on the cat's face
+Answer: ",No
+137,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the cat's paw is on the dog's face
+Answer: ",Yes.
+138,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the computer's screen is on and the phone's screen is off
+Answer: ",Yes.
+138,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the phone's screen is on and the computer's screen is off
+Answer: ",No
+138,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the computer's screen is on and the phone's screen is off
+Answer: ",No.
+138,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the phone's screen is on and the computer's screen is off
+Answer: ",Yes.
+139,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is in the driver's seat and the person is in the passenger's seat
+Answer: ",Yes
+139,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is in the passenger's seat and the person is in the driver's seat
+Answer: ",No
+139,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is in the driver's seat and the person is in the passenger's seat
+Answer: ",No
+139,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is in the passenger's seat and the person is in the driver's seat
+Answer: ",Yes.
+140,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more trees than people
+Answer: ",Yes.
+140,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more people than trees
+Answer: ",No.
+140,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more trees than people
+Answer: ",No.
+140,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more people than trees
+Answer: ",Yes.
+141,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more computers than people
+Answer: ",Yes.
+141,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more people than computers
+Answer: ",No.
+141,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more computers than people
+Answer: ",No.
+141,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more people than computers
+Answer: ",Yes.
+142,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more wood than metal
+Answer: ",Yes.
+142,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more metal than wood
+Answer: ",No.
+142,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more wood than metal
+Answer: ",No.
+142,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more metal than wood
+Answer: ",Yes.
+143,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more hats than people
+Answer: ",Yes.
+143,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more people than hats
+Answer: ",No.
+143,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more hats than people
+Answer: ",No.
+143,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more people than hats
+Answer: ",Yes.
+144,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more people than stools
+Answer: ",Yes.
+144,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more stools than people
+Answer: ",No.
+144,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more people than stools
+Answer: ",No.
+144,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more stools than people
+Answer: ",Yes.
+145,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more red wine than white wine
+Answer: ",No.
+145,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more white wine than red wine
+Answer: ",No.
+145,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more red wine than white wine
+Answer: ",No.
+145,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more white wine than red wine
+Answer: ",No
+146,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more milk than coffee
+Answer: ",Yes.
+146,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more coffee than milk
+Answer: ",No
+146,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more milk than coffee
+Answer: ",No.
+146,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more coffee than milk
+Answer: ",Yes.
+147,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more cereal in the bowl than milk
+Answer: ",Yes.
+147,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more milk in the bowl than cereal
+Answer: ",No.
+147,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more cereal in the bowl than milk
+Answer: ",No
+147,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more milk in the bowl than cereal
+Answer: ",Yes.
+148,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: boat sail
+Answer: ",Yes.
+148,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: sail boat
+Answer: ",No.
+148,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: boat sail
+Answer: ",Yes
+148,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: sail boat
+Answer: ",Yes
+149,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: boat house
+Answer: ",Yes.
+149,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: house boat
+Answer: ",No.
+149,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: boat house
+Answer: ",Yes.
+149,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: house boat
+Answer: ",Yes.
+150,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: check a rip
+Answer: ",Yes.
+150,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: rip a check
+Answer: ",No.
+150,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: check a rip
+Answer: ",Yes.
+150,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: rip a check
+Answer: ",Yes.
+151,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: dress the display
+Answer: ",Yes.
+151,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: display the dress
+Answer: ",Yes.
+151,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: dress the display
+Answer: ","I'm sorry, I can't determine the answer based on the image alone."
+151,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: display the dress
+Answer: ",Yes
+152,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: spoon holding honey
+Answer: ",Yes.
+152,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: honey holding spoon
+Answer: ",Yes.
+152,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: spoon holding honey
+Answer: ",No.
+152,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: honey holding spoon
+Answer: ",No.
+153,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: books holding up a person
+Answer: ",Yes.
+153,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person holding up books
+Answer: ",No
+153,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: books holding up a person
+Answer: ",No
+153,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person holding up books
+Answer: ",Yes
+154,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a dog is using a wheelchair next to a person
+Answer: ",Yes.
+154,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is using a wheelchair next to a dog
+Answer: ",No.
+154,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a dog is using a wheelchair next to a person
+Answer: ",No
+154,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is using a wheelchair next to a dog
+Answer: ",Yes.
+155,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some plants surrounding a lightbulb
+Answer: ",Yes
+155,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a lightbulb surrounding some plants
+Answer: ",Yes
+155,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some plants surrounding a lightbulb
+Answer: ",No.
+155,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a lightbulb surrounding some plants
+Answer: ",Yes.
+156,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a more lightly-colored dog is holding a toy next to a black dog
+Answer: ",Yes.
+156,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a black dog is holding a toy next to a more lightly-colored dog
+Answer: ",Yes.
+156,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a more lightly-colored dog is holding a toy next to a black dog
+Answer: ",No.
+156,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a black dog is holding a toy next to a more lightly-colored dog
+Answer: ",No.
+157,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the flowers are taller than the people
+Answer: ",Yes.
+157,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the people are taller than the flowers
+Answer: ",No.
+157,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the flowers are taller than the people
+Answer: ",No.
+157,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the people are taller than the flowers
+Answer: ",Yes
+158,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a human in a stroller next to a dog
+Answer: ",Yes.
+158,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a dog in a stroller next to a human
+Answer: ",No
+158,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a human in a stroller next to a dog
+Answer: ",No.
+158,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a dog in a stroller next to a human
+Answer: ",Yes.
+159,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is casting a shadow beside a ball
+Answer: ",Yes.
+159,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a ball is casting a shadow beside a person
+Answer: ",Yes.
+159,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is casting a shadow beside a ball
+Answer: ",Yes.
+159,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a ball is casting a shadow beside a person
+Answer: ",No.
+160,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: its tail is shorter than its body
+Answer: ",Yes.
+160,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: its body is shorter than its tail
+Answer: ",No.
+160,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: its tail is shorter than its body
+Answer: ",No.
+160,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: its body is shorter than its tail
+Answer: ",Yes.
+161,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the child is throwing the adult the ball
+Answer: ",Yes.
+161,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the adult is throwing the child the ball
+Answer: ",No.
+161,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the child is throwing the adult the ball
+Answer: ",No
+161,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the adult is throwing the child the ball
+Answer: ",Yes.
+162,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person underneath lights
+Answer: ",Yes.
+162,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: lights underneath a person
+Answer: ",Yes.
+162,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person underneath lights
+Answer: ",Yes.
+162,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: lights underneath a person
+Answer: ",Yes.
+163,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some green on the ball
+Answer: ",Yes.
+163,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the ball on some green
+Answer: ",No
+163,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some green on the ball
+Answer: ",No
+163,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the ball on some green
+Answer: ",Yes
+164,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: mind in the clouds
+Answer: ",I'm unable to determine the answer based on the image provided.
+164,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: clouds in the mind
+Answer: ",I'm unable to determine the answer based on the image provided.
+164,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: mind in the clouds
+Answer: ",Yes
+164,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: clouds in the mind
+Answer: ",Yes
+165,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a phone on a map
+Answer: ",Yes.
+165,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a map on a phone
+Answer: ",No
+165,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a phone on a map
+Answer: ",Yes.
+165,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a map on a phone
+Answer: ",Yes.
+166,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person on a rock next to a dog
+Answer: ",Yes
+166,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a dog on a rock next to a person
+Answer: ",Yes.
+166,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person on a rock next to a dog
+Answer: ",Yes.
+166,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a dog on a rock next to a person
+Answer: ",Yes.
+167,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an adult is flexing beside a child
+Answer: ",Yes.
+167,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a child is flexing beside an adult
+Answer: ",No.
+167,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an adult is flexing beside a child
+Answer: ",No.
+167,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a child is flexing beside an adult
+Answer: ",Yes.
+168,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is looking at the dog
+Answer: ",Yes.
+168,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is looking at the person
+Answer: ",No.
+168,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is looking at the dog
+Answer: ",No
+168,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is looking at the person
+Answer: ",Yes.
+169,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cat is underneath a red blanket
+Answer: ",Yes.
+169,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a red blanket is underneath a cat
+Answer: ",Yes.
+169,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cat is underneath a red blanket
+Answer: ",No
+169,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a red blanket is underneath a cat
+Answer: ",Yes.
+170,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is bigger than the house
+Answer: ",Yes.
+170,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the house is bigger than the person
+Answer: ",No.
+170,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is bigger than the house
+Answer: ",No.
+170,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the house is bigger than the person
+Answer: ",Yes.
+171,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is underneath the car
+Answer: ",Yes
+171,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the car is underneath the person
+Answer: ",No
+171,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is underneath the car
+Answer: ",No.
+171,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the car is underneath the person
+Answer: ",Yes
+172,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the water is filled with plastic
+Answer: ",Yes.
+172,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the plastic is filled with water
+Answer: ",I'm unable to determine the contents of the plastic from the image.
+172,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the water is filled with plastic
+Answer: ",No
+172,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the plastic is filled with water
+Answer: ",Yes
+173,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an apple is on a target
+Answer: ",Yes.
+173,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a target is on an apple
+Answer: ",No
+173,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an apple is on a target
+Answer: ",No
+173,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a target is on an apple
+Answer: ",Yes.
+174,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: plant made out of a light bulb
+Answer: ",Yes.
+174,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: light bulb made out of a plant
+Answer: ",No.
+174,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: plant made out of a light bulb
+Answer: ",Yes.
+174,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: light bulb made out of a plant
+Answer: ",Yes.
+175,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: parent pointing at child
+Answer: ",I'm unable to provide a yes or no answer based on the image.
+175,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: child pointing at parent
+Answer: ",I'm unable to determine if the child is pointing at the parent based on the image.
+175,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: parent pointing at child
+Answer: ",No.
+175,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: child pointing at parent
+Answer: ",Yes
+176,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person reached the base before the ball
+Answer: ",Yes.
+176,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the ball reached the base before the person
+Answer: ",Yes.
+176,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person reached the base before the ball
+Answer: ",Yes.
+176,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the ball reached the base before the person
+Answer: ",Yes.
+177,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: ice being dumped on top of fish
+Answer: ",Yes.
+177,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fish being dumped on top of ice
+Answer: ",Yes.
+177,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: ice being dumped on top of fish
+Answer: ",No.
+177,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fish being dumped on top of ice
+Answer: ",No.
+178,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an adult kisses a child
+Answer: ",Yes
+178,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a child kisses an adult
+Answer: ",Yes.
+178,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an adult kisses a child
+Answer: ",No
+178,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a child kisses an adult
+Answer: ",Yes.
+179,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a dog in a mask and a person beside it
+Answer: ",Yes.
+179,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a dog and a person in a mask beside it
+Answer: ",No
+179,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a dog in a mask and a person beside it
+Answer: ",No
+179,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's a dog and a person in a mask beside it
+Answer: ",Yes
+180,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the baby on the phone is next to an adult
+Answer: ",Yes.
+180,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the baby is next to an adult on the phone
+Answer: ",No
+180,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the baby on the phone is next to an adult
+Answer: ",Yes
+180,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the baby is next to an adult on the phone
+Answer: ",Yes
+181,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left has their arms up and the person on the right has their arms down
+Answer: ",Yes.
+181,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the right has their arms up and the person on the left has their arms down
+Answer: ",Yes.
+181,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left has their arms up and the person on the right has their arms down
+Answer: ",Yes.
+181,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the right has their arms up and the person on the left has their arms down
+Answer: ",No
+182,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left is holding the phone and the person on the right is staring at it
+Answer: ",Yes.
+182,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the right is holding the phone and the person on the left is staring at it
+Answer: ",No.
+182,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left is holding the phone and the person on the right is staring at it
+Answer: ",No.
+182,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the right is holding the phone and the person on the left is staring at it
+Answer: ",Yes.
+183,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the orange on the left is moldy while the orange on the right is fresh
+Answer: ",Yes.
+183,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the orange on the right is moldy while the orange on the left is fresh
+Answer: ",Yes.
+183,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the orange on the left is moldy while the orange on the right is fresh
+Answer: ",No
+183,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the orange on the right is moldy while the orange on the left is fresh
+Answer: ",No
+184,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a pink scoop of ice cream on top and a blue scoop on bottom
+Answer: ",Yes.
+184,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a pink scoop of ice cream on bottom and a blue scoop on top
+Answer: ",No
+184,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a pink scoop of ice cream on top and a blue scoop on bottom
+Answer: ",No
+184,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a pink scoop of ice cream on bottom and a blue scoop on top
+Answer: ",Yes.
+185,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the glasses on the right are fuller than the glasses on the left
+Answer: ",Yes.
+185,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the glasses on the left are fuller than the glasses on the right
+Answer: ",No.
+185,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the glasses on the right are fuller than the glasses on the left
+Answer: ",No.
+185,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the glasses on the left are fuller than the glasses on the right
+Answer: ",Yes.
+186,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left is blowing bubbles and the person on the right is watching
+Answer: ",Yes.
+186,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the right is blowing bubbles and the person on the left is watching
+Answer: ",No
+186,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the left is blowing bubbles and the person on the right is watching
+Answer: ",Yes.
+186,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person on the right is blowing bubbles and the person on the left is watching
+Answer: ",Yes.
+187,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more foam on the left than on the right
+Answer: ",Yes.
+187,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more foam on the right than on the left
+Answer: ",No
+187,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more foam on the left than on the right
+Answer: ",No
+187,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there's more foam on the right than on the left
+Answer: ",Yes.
+188,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a fish is jumping from left to right
+Answer: ",Yes.
+188,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a fish is jumping from right to left
+Answer: ",No.
+188,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a fish is jumping from left to right
+Answer: ",Yes.
+188,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a fish is jumping from right to left
+Answer: ",Yes.
+189,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they worked out then they drank water
+Answer: ",Yes.
+189,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they drank water then they worked out
+Answer: ",I'm unable to determine the sequence of events from the image alone.
+189,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they worked out then they drank water
+Answer: ",Yes.
+189,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: they drank water then they worked out
+Answer: ",Yes.
+190,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the shrimp are peeled then the shrimp are cooked
+Answer: ",No
+190,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the shrimp are cooked then the shrimp are peeled
+Answer: ",No
+190,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the shrimp are peeled then the shrimp are cooked
+Answer: ",Yes
+190,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the shrimp are cooked then the shrimp are peeled
+Answer: ",Yes.
+191,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the coffee is poured before it is ground
+Answer: ",No
+191,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it is ground before the coffee is poured
+Answer: ",No.
+191,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the coffee is poured before it is ground
+Answer: ",No
+191,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: it is ground before the coffee is poured
+Answer: ",Yes
+192,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the potato is washed and then it is cut
+Answer: ",No
+192,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the potato is cut and then it is washed
+Answer: ",No.
+192,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the potato is washed and then it is cut
+Answer: ",Yes
+192,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the potato is cut and then it is washed
+Answer: ",Yes
+193,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the banana is peeled then it is sliced
+Answer: ",Yes.
+193,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the banana is sliced then it is peeled
+Answer: ",No.
+193,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the banana is peeled then it is sliced
+Answer: ",No.
+193,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the banana is sliced then it is peeled
+Answer: ",No
+194,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is swimming and the person is standing
+Answer: ",No
+194,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is standing and the person is swimming
+Answer: ",No
+194,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is swimming and the person is standing
+Answer: ",No
+194,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the dog is standing and the person is swimming
+Answer: ",Yes.
+195,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is jumping while the cat is sitting
+Answer: ",Yes
+195,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is sitting while the cat is jumping
+Answer: ",No.
+195,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is jumping while the cat is sitting
+Answer: ",No
+195,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person is sitting while the cat is jumping
+Answer: ",Yes.
+196,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cat is lying down and a person is stretching
+Answer: ",Yes
+196,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cat is stretching and a person is lying down
+Answer: ",Yes
+196,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cat is lying down and a person is stretching
+Answer: ",Yes.
+196,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cat is stretching and a person is lying down
+Answer: ",Yes.
+197,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some people are standing but more are sitting
+Answer: ",Yes.
+197,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some people are sitting but more are standing
+Answer: ",No.
+197,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some people are standing but more are sitting
+Answer: ",No.
+197,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some people are sitting but more are standing
+Answer: ",Yes.
+198,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The kid throws the pancake and the adult sees it
+Answer: ",Yes.
+198,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The kids see the pancake and the adult throws it
+Answer: ",No.
+198,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The kid throws the pancake and the adult sees it
+Answer: ",No.
+198,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: The kids see the pancake and the adult throws it
+Answer: ",Yes.
+199,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: painting gray walls white
+Answer: ",Yes.
+199,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: painting white walls gray
+Answer: ",No
+199,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: painting gray walls white
+Answer: ",No
+199,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: painting white walls gray
+Answer: ",Yes.
+200,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a shorter person wearing blue standing next to a taller person
+Answer: ",Yes.
+200,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a taller person wearing blue standing next to a shorter person
+Answer: ",Yes.
+200,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a shorter person wearing blue standing next to a taller person
+Answer: ",Yes
+200,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a taller person wearing blue standing next to a shorter person
+Answer: ",Yes.
+201,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person wearing a bear mask in blue on the left hand side of a person wearing a panda mask with glasses in pink
+Answer: ",No
+201,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person wearing a panda mask with glasses in blue on the left hand side of a person wearing a bear mask in pink
+Answer: ",Yes.
+201,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person wearing a bear mask in blue on the left hand side of a person wearing a panda mask with glasses in pink
+Answer: ",Yes
+201,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person wearing a panda mask with glasses in blue on the left hand side of a person wearing a bear mask in pink
+Answer: ",Yes.
+202,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a car containing many a box
+Answer: ",Yes.
+202,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a box containing many a car
+Answer: ",No.
+202,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a car containing many a box
+Answer: ",No
+202,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a box containing many a car
+Answer: ",Yes.
+203,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: left is red and right is blue
+Answer: ",Yes
+203,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: left is blue and right is red
+Answer: ",No
+203,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: left is red and right is blue
+Answer: ",No
+203,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: left is blue and right is red
+Answer: ",Yes.
+204,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: many a table tennis racket, just one ball
+Answer: ",Yes.
+204,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: just one table tennis racket, many a ball
+Answer: ",No
+204,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: many a table tennis racket, just one ball
+Answer: ",No.
+204,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: just one table tennis racket, many a ball
+Answer: ",Yes.
+205,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: four lions, no tigers
+Answer: ",Yes
+205,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: no lions, four tigers
+Answer: ",No.
+205,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: four lions, no tigers
+Answer: ",No
+205,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: no lions, four tigers
+Answer: ",Yes
+206,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a small spherical object is heavier than a big spherical object
+Answer: ",No.
+206,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a big spherical object is heavier than a small spherical object
+Answer: ",Yes.
+206,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a small spherical object is heavier than a big spherical object
+Answer: ",No.
+206,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a big spherical object is heavier than a small spherical object
+Answer: ",No.
+207,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an older person blocking a younger person
+Answer: ",Yes.
+207,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a younger person blocking an older person
+Answer: ",No.
+207,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an older person blocking a younger person
+Answer: ",Yes.
+207,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a younger person blocking an older person
+Answer: ",Yes.
+208,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: white land and black water
+Answer: ",Yes
+208,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: black land and white water
+Answer: ",Yes.
+208,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: white land and black water
+Answer: ",No
+208,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: black land and white water
+Answer: ",Yes
+209,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the cube is smaller than the shape whose lateral faces meet at a vertex
+Answer: ",Yes.
+209,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the shape whose lateral faces meet at a vertex is smaller than the cube
+Answer: ",Yes.
+210,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more bicycles than cars
+Answer: ",Yes.
+210,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more cars than bicycles
+Answer: ",No
+210,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more bicycles than cars
+Answer: ",No.
+210,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more cars than bicycles
+Answer: ",Yes.
+211,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more apples than pears
+Answer: ",Yes.
+211,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more pears than apples
+Answer: ",No.
+211,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more apples than pears
+Answer: ",No.
+211,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more pears than apples
+Answer: ",Yes.
+212,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more love than hate
+Answer: ",Yes.
+212,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more hate than love
+Answer: ",No.
+212,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more love than hate
+Answer: ",No
+212,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there is more hate than love
+Answer: ",Yes.
+213,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more water than oil
+Answer: ",Yes.
+213,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more oil than water
+Answer: ",No.
+213,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more water than oil
+Answer: ",Yes.
+213,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more oil than water
+Answer: ",Yes.
+214,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person cries while another person wearing jewelry above their shoulders consoles
+Answer: ",Yes.
+214,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person consoles while another person wearing jewelry above their shoulders cries
+Answer: ",No.
+214,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person cries while another person wearing jewelry above their shoulders consoles
+Answer: ","I'm sorry, I can't provide an answer based on the image."
+214,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person consoles while another person wearing jewelry above their shoulders cries
+Answer: ",Yes.
+215,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person with long hair eating a meat-based product while a person with short hair snacks on some fries
+Answer: ",Yes.
+215,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person with short hair eating a meat-based product while a person with long hair snacks on some fries
+Answer: ",No
+215,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person with long hair eating a meat-based product while a person with short hair snacks on some fries
+Answer: ",Yes.
+215,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person with short hair eating a meat-based product while a person with long hair snacks on some fries
+Answer: ",I'm unable to provide a yes or no answer based on the image.
+216,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: water below the boat
+Answer: ",Yes.
+216,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: boat below the water
+Answer: ",No
+216,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: water below the boat
+Answer: ",Yes.
+216,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: boat below the water
+Answer: ",Yes.
+217,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the one in front is faster than the other one
+Answer: ",Yes.
+217,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the other one is faster than the one in front
+Answer: ",Yes.
+218,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: You can catch more flies with honey than you can with vinegar
+Answer: ",No
+218,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: You can catch more flies with vinegar than you can with honey
+Answer: ",No
+218,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: You can catch more flies with honey than you can with vinegar
+Answer: ",No.
+218,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: You can catch more flies with vinegar than you can with honey
+Answer: ",No.
+219,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: It starts with ""A"" and ends with ""Z""
+Answer: ",Yes.
+219,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: It starts with ""Z"" and ends with ""A""
+Answer: ",No
+219,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: It starts with ""A"" and ends with ""Z""
+Answer: ",No
+219,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: It starts with ""Z"" and ends with ""A""
+Answer: ",Yes
+220,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a shadow within the line
+Answer: ",Yes.
+220,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a line within the shadow
+Answer: ",I'm unable to provide a yes or no answer based on the image alone.
+220,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a shadow within the line
+Answer: ",Yes.
+220,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a line within the shadow
+Answer: ","I'm sorry, I can't determine the answer based on the image provided."
+221,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the brave in the face of fear
+Answer: ",Yes.
+221,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fear in the face of the brave
+Answer: ",I'm unable to provide a yes or no answer based on the image and caption provided.
+221,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the brave in the face of fear
+Answer: ","I'm sorry, I can't determine the answer based on the image provided."
+221,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fear in the face of the brave
+Answer: ",Yes.
+222,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: I need my strength back
+Answer: ","I'm sorry, I can't provide an answer based on the image."
+222,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: I need my back strength
+Answer: ","I'm sorry, I can't determine the answer based on the image provided."
+222,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: I need my strength back
+Answer: ",Yes
+222,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: I need my back strength
+Answer: ",Yes
+223,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the one in the middle is taller than the ones on the side are
+Answer: ",I'm unable to determine the height of objects in images.
+223,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the ones on the side are taller than the one in the middle is
+Answer: ",I'm unable to provide a yes or no answer based on the image.
+223,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the one in the middle is taller than the ones on the side are
+Answer: ",No.
+223,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the ones on the side are taller than the one in the middle is
+Answer: ",Yes.
+224,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fish flying
+Answer: ",Yes.
+224,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fly fishing
+Answer: ",No
+224,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fish flying
+Answer: ",No.
+224,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: fly fishing
+Answer: ",Yes.
+225,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the red car is behind the blue car
+Answer: ",No.
+225,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the blue car is behind the red car
+Answer: ",No.
+225,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the red car is behind the blue car
+Answer: ",No.
+225,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the blue car is behind the red car
+Answer: ",No
+226,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the driver wearing a shirt is in front of the other person wearing a sleeveless top
+Answer: ",Yes.
+226,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the driver wearing a sleeveless top is in front of the other person wearing a shirt
+Answer: ",No
+226,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the driver wearing a shirt is in front of the other person wearing a sleeveless top
+Answer: ",No.
+226,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the driver wearing a sleeveless top is in front of the other person wearing a shirt
+Answer: ",Yes.
+227,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an object that rolls is on some wood
+Answer: ",Yes.
+227,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some wood is on an object that rolls
+Answer: ",No.
+227,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an object that rolls is on some wood
+Answer: ",Yes.
+227,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: some wood is on an object that rolls
+Answer: ",Yes.
+228,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cat viewing a human on a screen
+Answer: ",Yes.
+228,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a human viewing a cat on a screen
+Answer: ",No
+228,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a cat viewing a human on a screen
+Answer: ",No.
+228,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a human viewing a cat on a screen
+Answer: ",Yes
+229,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a normal person wishing they were a superhero
+Answer: ",Yes.
+229,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a superhero wishing they were a normal person
+Answer: ",Yes.
+230,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a mike in the right hand while raising the left
+Answer: ",Yes.
+230,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a mike in the left hand while raising the right
+Answer: ",Yes.
+230,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a mike in the right hand while raising the left
+Answer: ",Yes.
+230,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a mike in the left hand while raising the right
+Answer: ",Yes.
+231,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person with long hair behind a person with a beard
+Answer: ",Yes
+231,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person with a beard behind a person with long hair
+Answer: ",I'm unable to provide a yes or no answer based on the image.
+231,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person with long hair behind a person with a beard
+Answer: ",I'm unable to provide a yes or no answer based on the image.
+231,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person with a beard behind a person with long hair
+Answer: ",Yes
+232,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with hair to their shoulders has brown eyes and the other person's are blue
+Answer: ",I'm unable to determine eye color from the image.
+232,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with hair to their shoulders has blue eyes and the other person's are brown
+Answer: ",I'm unable to determine eye color from the image.
+232,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with hair to their shoulders has brown eyes and the other person's are blue
+Answer: ",I'm unable to determine eye colors from the image.
+232,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person with hair to their shoulders has blue eyes and the other person's are brown
+Answer: ",I'm unable to determine eye colors from the image.
+233,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a human being on a device that intercepts the sun's rays
+Answer: ",Yes.
+233,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a device that intercepts the sun's rays on a human being
+Answer: ",No
+233,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a human being on a device that intercepts the sun's rays
+Answer: ",Yes.
+233,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a device that intercepts the sun's rays on a human being
+Answer: ",Yes.
+234,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more humans than phones
+Answer: ",Yes
+234,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more phones than humans
+Answer: ",No
+234,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more humans than phones
+Answer: ",No.
+234,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more phones than humans
+Answer: ",Yes.
+235,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is in the tube
+Answer: ",Yes.
+235,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a tube is in the person
+Answer: ",No.
+235,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person is in the tube
+Answer: ",No
+235,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a tube is in the person
+Answer: ",Yes.
+236,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person's head is above the rest of their body
+Answer: ",No.
+236,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the rest of their body is above the person's head
+Answer: ",No
+236,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the person's head is above the rest of their body
+Answer: ",No
+236,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the rest of their body is above the person's head
+Answer: ",Yes.
+237,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: person overboard
+Answer: ",Yes.
+237,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: person over board
+Answer: ",Yes.
+237,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: person overboard
+Answer: ",No.
+237,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: person over board
+Answer: ",No.
+238,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more red buttons than blue
+Answer: ",Yes.
+238,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more blue buttons than red
+Answer: ",No.
+238,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more red buttons than blue
+Answer: ",No.
+238,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more blue buttons than red
+Answer: ",Yes.
+239,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the object at the top left is purple and the one at the bottom right of the group is red
+Answer: ",No.
+239,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the object at the bottom right is purple and the one at the top left of the group is red
+Answer: ",Yes.
+240,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: flat at the bottom and pointy on top
+Answer: ",Yes.
+240,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: flat on top and pointy at the bottom
+Answer: ",No
+240,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: flat at the bottom and pointy on top
+Answer: ",Yes.
+240,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: flat on top and pointy at the bottom
+Answer: ",Yes.
+241,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: seat numbers increasing from left to right
+Answer: ",No.
+241,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: seat numbers increasing from right to left
+Answer: ",No.
+241,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: seat numbers increasing from left to right
+Answer: ",No
+241,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: seat numbers increasing from right to left
+Answer: ",No.
+242,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the number on the right is larger than the number on the left
+Answer: ",Yes.
+242,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the number on the left is larger than the number on the right
+Answer: ",No.
+242,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the number on the right is larger than the number on the left
+Answer: ",No.
+242,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the number on the left is larger than the number on the right
+Answer: ",Yes.
+243,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more hair on the person's face than on their head
+Answer: ",Yes.
+243,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more hair on the person's head than on their face
+Answer: ",No
+243,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more hair on the person's face than on their head
+Answer: ",No.
+243,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more hair on the person's head than on their face
+Answer: ",Yes
+244,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the knife on the left and the fork on the right
+Answer: ",Yes.
+244,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the knife on the right and the fork on the left
+Answer: ",No
+244,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the knife on the left and the fork on the right
+Answer: ",No
+244,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the knife on the right and the fork on the left
+Answer: ",Yes.
+245,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: food on their eyes
+Answer: ",Yes
+245,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: eyes on their food
+Answer: ",No
+245,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: food on their eyes
+Answer: ",Yes.
+245,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: eyes on their food
+Answer: ",Yes.
+246,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: cars of bits
+Answer: ",Yes.
+246,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: bits of cars
+Answer: ",I'm unable to provide a yes or no answer based on the image provided.
+246,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: cars of bits
+Answer: ",Yes
+246,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: bits of cars
+Answer: ",Yes.
+247,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person on top of the world
+Answer: ",Yes
+247,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the world on top of a person
+Answer: ",No
+247,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person on top of the world
+Answer: ",No
+247,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the world on top of a person
+Answer: ",Yes.
+248,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two people; the one on the right has curly hair and the one on the left doesn't
+Answer: ",Yes.
+248,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two people; the one on the left has curly hair and the one on the right doesn't
+Answer: ",Yes.
+248,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two people; the one on the right has curly hair and the one on the left doesn't
+Answer: ",Yes.
+248,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: two people; the one on the left has curly hair and the one on the right doesn't
+Answer: ",Yes
+249,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: first the cream, then the jam
+Answer: ",Yes.
+249,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: first the jam, then the cream
+Answer: ",No.
+249,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: first the cream, then the jam
+Answer: ",No
+249,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: first the jam, then the cream
+Answer: ",Yes.
+250,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more kisses than hugs
+Answer: ",Yes.
+250,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more hugs than kisses
+Answer: ",No
+250,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more kisses than hugs
+Answer: ",No
+250,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: more hugs than kisses
+Answer: ",Yes
+251,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an inflatable flamingo on a person
+Answer: ",Yes.
+251,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person on an inflatable flamingo
+Answer: ",No.
+251,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: an inflatable flamingo on a person
+Answer: ",Yes.
+251,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a person on an inflatable flamingo
+Answer: ",Yes.
+252,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a pink bird with a white beak
+Answer: ",Yes
+252,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a white bird with a pink beak
+Answer: ",No
+252,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a pink bird with a white beak
+Answer: ",No.
+252,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a white bird with a pink beak
+Answer: ",Yes.
+253,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a large pink inflatable flamingo along with some other lilos on the water including one that is mostly white
+Answer: ",Yes.
+253,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a large white inflatable flamingo along with some other lilos on the water including one that is mostly pink
+Answer: ",No.
+253,B,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a large pink inflatable flamingo along with some other lilos on the water including one that is mostly white
+Answer: ",No
+253,B,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: a large white inflatable flamingo along with some other lilos on the water including one that is mostly pink
+Answer: ",No
+254,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more eyes in the image than there are on a typical human
+Answer: ",Yes.
+254,A,2,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: there are more eyes on a typical human than there are in the image
+Answer: ",No.
+255,A,1,"Here is an evaluation sample. Please provide the final answer in yes or no.
+
+
+Image: <image>
+Caption: the confident doctor's stethoscope is around their neck, and their jacket is over their name tag
+Answer: ",Yes.

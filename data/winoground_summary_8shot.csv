@@ -1,0 +1,4 @@
+category,samples,accuracy,image_score,text_score
+Both,26,0.2692,0.4423,0.5385
+Object,128,0.1094,0.3281,0.3516
+Relation,207,0.1691,0.3092,0.3213
