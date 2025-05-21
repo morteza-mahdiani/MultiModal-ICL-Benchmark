@@ -193,3 +193,8 @@ data/examples.jsonl
 results/llava*
 results/gpt4o*
 results/
+LlaVa_fewshot_vismin_qualitative.py
+llava_vismin_evaluation_results_captions.csv
+llava_vismin_evaluation_results_captions_qualitative.csv
+llava_vismin_evaluation_results_captions_qualitative_1.csv
+llava_vismin_evaluation_results_captions_qualitative_old.csv
