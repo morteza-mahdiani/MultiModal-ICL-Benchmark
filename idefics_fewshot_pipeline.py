@@ -132,14 +132,9 @@ def get_few_shot_examples(current_sample, all_samples, num_examples=8):
     return random.sample(same_cat, min(num_examples, len(same_cat)))
 
 
+
 def build_few_shot_prompt_and_images(few_shot_examples, eval_sample):
-    """
-    Build a prompt that includes few-shot examples and returns:
-      - the combined text prompt (with examples and evaluation sample details)
-      - a list of images in order: [few-shot example images..., evaluation sample image]
-    The function normalizes the question text so that any image placeholder is replaced with "<image>".
-    """
-    prompt = "Below are some examples demonstrating how to answer based on the provided captions and images:\n\n"
+    prompt = "Below are examples selected from the same category as the evaluation sample. Carefully study the question and answer for each.\n\n"
     images = []
 
     for idx, ex in enumerate(few_shot_examples, start=1):
@@ -155,7 +150,6 @@ def build_few_shot_prompt_and_images(few_shot_examples, eval_sample):
             default_answer = "B"
 
         question_text = ex[q_field].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
-        
         example_text = (
             f"Example {idx}:\n"
             f"Question: {question_text}\n"
@@ -165,22 +159,19 @@ def build_few_shot_prompt_and_images(few_shot_examples, eval_sample):
         images.append(ex[image_field])
     
     eval_question_text = eval_sample['text_question_0'].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
-    
-    eval_prompt = "Now, please answer the following for the evaluation sample:\n"
-    eval_prompt += f"Question: {eval_question_text}\n"
-    eval_prompt += "Answer: "
-    
-    prompt_1 = prompt + eval_prompt
-    images_1 = images.copy()  
+    eval_prompt = "Now, based on the samples above, please answer this evaluation question. Explain your reasoning before giving the final answer:\n"
+    prompt_1 = prompt + eval_prompt + f"Question: {eval_question_text}\nAnswer: "
+
+    images_1 = images.copy()
     images_1.append(eval_sample['image_0'])
 
-    prompt_2 = prompt + eval_prompt
-    images_2 = images.copy() 
+    eval_question_text = eval_sample['text_question_1'].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
+    prompt_2 = prompt + eval_prompt + f"Question: {eval_question_text}\nAnswer: "
+    
+    images_2 = images.copy()
     images_2.append(eval_sample['image_1'])
-    
-    
-    return prompt_1, images_1, prompt_2, images_2
 
+    return prompt_1, images_1, prompt_2, images_2
 
 def build_few_shot_prompt_and_images_for_image_question(few_shot_examples, eval_sample):
     """
@@ -189,7 +180,7 @@ def build_few_shot_prompt_and_images_for_image_question(few_shot_examples, eval_
       - a list of images in order: [few-shot example images..., evaluation sample image]
     The function normalizes the question text so that any image placeholder is replaced with "<image>".
     """
-    prompt = "Below are some examples demonstrating how to answer based on the provided images and question:\n\n"
+    prompt = "Below are examples selected from the same category as the evaluation sample. Carefully study the question and answer for each.\n\n"
     images = []
     num_examples = len(few_shot_examples)
     for idx, ex in enumerate(few_shot_examples, start=1):
@@ -216,7 +207,7 @@ def build_few_shot_prompt_and_images_for_image_question(few_shot_examples, eval_
     eval_question_text_1 = eval_sample['image_question_0'].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
     eval_question_text_2 = eval_sample['image_question_1'].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
 
-    eval_prompt = "Now, please answer the following for the evaluation sample:\n"
+    eval_prompt = "Now, based on the samples above, please answer this evaluation question. Explain your reasoning before giving the final answer:\n"
     
     prompt_1 = prompt + eval_prompt
     prompt_1 +=  f"You are given two images. {eval_question_text_1}\n"
@@ -231,16 +222,13 @@ def build_few_shot_prompt_and_images_for_image_question(few_shot_examples, eval_
     return prompt_1, images, prompt_2, images
 
 def build_prompt_without_few_shot(eval_sample):
-    prompt = "You are given two images."
+    prompt_intro = "You are given two images. Carefully read the question and explain in one sentence your reasoning step-by-step before answering.\n\n"
     images = []
     eval_question_text_1 = eval_sample['image_question_0'].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
     eval_question_text_2 = eval_sample['image_question_1'].replace("<image_0>", "<image>").replace("<image_1>", "<image>")
-    
-    prompt_1 = prompt + f"{eval_question_text_1}\n"
-    prompt_1 += "Answer: "
 
-    prompt_2 = prompt + f"{eval_question_text_2}\n"
-    prompt_2 += "Answer: "
+    prompt_1 = prompt_intro + f"Question: {eval_question_text_1}\nAnswer: "
+    prompt_2 = prompt_intro + f"Question: {eval_question_text_2}\nAnswer: "
 
     images.append(eval_sample['image_0'])
     images.append(eval_sample['image_1'])
@@ -277,6 +265,7 @@ def run_evaluation(finetuned=False, batch_size=16, num_fewshot_examples=8, image
                 prompt1, images1, prompt2, images2 = build_few_shot(few_shot, sample)
             else:
                 prompt1, images1, prompt2, images2 = build_prompt_without_few_shot(sample)
+                
             batch_prompts_1.append(prompt1)
             batch_image_lists_1.append(images1)
             batch_prompts_2.append(prompt2)
@@ -291,15 +280,19 @@ def run_evaluation(finetuned=False, batch_size=16, num_fewshot_examples=8, image
         batch_answers_1 = idefics2.predict_batch(texts=batch_prompts_1, images=batch_image_lists_1, max_new_tokens=64)
         batch_answers_2 = idefics2.predict_batch(texts=batch_prompts_2, images=batch_image_lists_2, max_new_tokens=64)
 
+
         for meta, ans1, ans2 in zip(batch_metadata, batch_answers_1, batch_answers_2):
-            meta['text_answer_1'] = ans1
-            meta['text_answer_2'] = ans2
+            meta['answer_1'] = ans1
+            meta['answer_2'] = ans2
             all_results.append(meta)
         
         print(f"Processed batch {batch_idx + 1}/{num_batches}")
+        
     results_df = pd.DataFrame(all_results)
     results_df.to_csv(filename, index=False)
     print("Evaluation complete. Results saved to " + filename)
+    exit()
+        
 
 
 if __name__ == '__main__':
