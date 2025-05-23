@@ -185,7 +185,7 @@ def run_evaluation(batch_size=1, num_fewshot_examples=4, image_question=True, fi
     llava = LlavaModel(model_name_or_path=model_name, device='cuda')
 
     # load dataset
-    dataset = load_dataset("mair-lab/vismin-bench", split="test").select(range(20))
+    dataset = load_dataset("mair-lab/vismin-bench", split="test")
     all_samples = [s for s in dataset]
 
     # define task type
